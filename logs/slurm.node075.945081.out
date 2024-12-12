@@ -1,0 +1,2946 @@
+source:  /home/shared/su123/TCGA_ORI/TCGA-OV/
+patch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/patches
+mask_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/masks
+stitch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/stitches
+source : /home/shared/su123/TCGA_ORI/TCGA-OV/
+save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256
+patch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/patches
+mask_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/masks
+stitch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_256/stitches
+{'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 4, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 16, 'a_h': 4, 'max_n_holes': 8}, 'patch_params': {'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 100}}
+source:  /home/shared/su123/TCGA_ORI/TCGA-OV/
+patch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/patches
+mask_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/masks
+stitch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/stitches
+source : /home/shared/su123/TCGA_ORI/TCGA-OV/
+save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512
+patch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/patches
+mask_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/masks
+stitch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_512/stitches
+{'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 4, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 16, 'a_h': 4, 'max_n_holes': 8}, 'patch_params': {'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 100}}
+source:  /home/shared/su123/TCGA_ORI/TCGA-OV/
+patch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/patches
+mask_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/masks
+stitch_save_dir:  /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/stitches
+source : /home/shared/su123/TCGA_ORI/TCGA-OV/
+save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024
+patch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/patches
+mask_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/masks
+stitch_save_dir : /home/shared/su123/TCGA_Embed/TCGA-OV/clam_gen_1024/stitches
+{'seg_params': {'seg_level': -1, 'sthresh': 8, 'mthresh': 7, 'close': 4, 'use_otsu': False, 'keep_ids': 'none', 'exclude_ids': 'none'}, 'filter_params': {'a_t': 16, 'a_h': 4, 'max_n_holes': 8}, 'patch_params': {'use_padding': True, 'contour_fn': 'four_pt'}, 'vis_params': {'vis_level': -1, 'line_thickness': 100}}
+
+
+progress: 0.00, 0/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/00781737-74c2-4e80-b58b-c910f15893a1/TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7.svs
+Creating patches for:  TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7 ...
+Total number of contours to process:  5
+Bounding Box: 131365 32162 9362 2257
+Contour Area: 14972176.0
+
+
+progress: 0.00, 0/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/00781737-74c2-4e80-b58b-c910f15893a1/TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7.svs
+Creating patches for:  TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7 ...
+Total number of contours to process:  5
+Bounding Box: 131365 32162 9362 2257
+Contour Area: 14972176.0
+Extracted 68 coordinates
+Bounding Box: 384 22161 4833 5969
+Contour Area: 17324672.0
+Extracted 18 coordinates
+Bounding Box: 384 22161 4833 5969
+Contour Area: 17324672.0
+Extracted 78 coordinates
+Bounding Box: 88500 20033 4737 5969
+Contour Area: 16842624.0
+Extracted 23 coordinates
+Bounding Box: 88500 20033 4737 5969
+Contour Area: 16842624.0
+Extracted 76 coordinates
+Bounding Box: 1968 5392 57299 36579
+Contour Area: 1228820932.0
+Extracted 20 coordinates
+Bounding Box: 1968 5392 57299 36579
+Contour Area: 1228820932.0
+Extracted 1245 coordinates
+Bounding Box: 89364 976 59091 33331
+Contour Area: 1223323611.0
+Extracted 4850 coordinates
+Bounding Box: 89364 976 59091 33331
+Contour Area: 1223323611.0
+Extracted 1238 coordinates
+original size: 153271 x 44659
+downscaled size for stiching: 9579 x 2791
+start stitching TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7
+number of patches: 2544
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 4801 coordinates
+original size: 153271 x 44659
+downscaled size for stiching: 9579 x 2791
+start stitching TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7
+number of patches: 9873
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+
+
+progress: 0.00, 0/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/00781737-74c2-4e80-b58b-c910f15893a1/TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7.svs
+Creating patches for:  TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7 ...
+Total number of contours to process:  5
+Bounding Box: 131365 32162 9362 2257
+Contour Area: 14972176.0
+Extracted 260 coordinates
+Bounding Box: 384 22161 4833 5969
+Contour Area: 17324672.0
+Extracted 295 coordinates
+Bounding Box: 88500 20033 4737 5969
+Contour Area: 16842624.0
+Extracted 282 coordinates
+Bounding Box: 1968 5392 57299 36579
+Contour Area: 1228820932.0
+Extracted 19082 coordinates
+Bounding Box: 89364 976 59091 33331
+Contour Area: 1223323611.0
+segmentation took 2.5889830589294434 seconds
+patching took 0.5076684951782227 seconds
+stitching took 1.3775427341461182 seconds
+
+
+progress: 0.01, 1/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/03878fc5-aee3-48af-8dc8-d2628b52d47b/TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75.svs
+Creating patches for:  TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75 ...
+Total number of contours to process:  4
+Bounding Box: 61512 62540 3394 3490
+Contour Area: 5688113.0
+Extracted 9 coordinates
+Bounding Box: 5952 47497 47528 25863
+Contour Area: 339851146.0
+Extracted 373 coordinates
+Bounding Box: 24451 7777 79948 67663
+Contour Area: 2474776933.5
+Extracted 2483 coordinates
+Bounding Box: 3040 1184 9922 37160
+Contour Area: 71758834.0
+Extracted 98 coordinates
+original size: 107567 x 77936
+downscaled size for stiching: 3361 x 2435
+start stitching TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75
+number of patches: 2963
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 2.5911972522735596 seconds
+patching took 0.8393332958221436 seconds
+stitching took 1.9022877216339111 seconds
+
+
+progress: 0.01, 1/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/03878fc5-aee3-48af-8dc8-d2628b52d47b/TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75.svs
+Creating patches for:  TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75 ...
+Total number of contours to process:  4
+Bounding Box: 61512 62540 3394 3490
+Contour Area: 5688113.0
+Extracted 31 coordinates
+Bounding Box: 5952 47497 47528 25863
+Contour Area: 339851146.0
+Extracted 1392 coordinates
+Bounding Box: 24451 7777 79948 67663
+Contour Area: 2474776933.5
+Extracted 18936 coordinates
+original size: 153271 x 44659
+downscaled size for stiching: 9579 x 2791
+start stitching TCGA-OY-A56Q-01Z-00-DX1.F1556F26-8845-4962-9004-70F9747B46B7
+number of patches: 38855
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 16x16
+Extracted 9678 coordinates
+Bounding Box: 3040 1184 9922 37160
+Contour Area: 71758834.0
+segmentation took 0.4739716053009033 seconds
+patching took 0.3912160396575928 seconds
+stitching took 0.5172080993652344 seconds
+
+
+progress: 0.02, 2/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/045d8d98-c26f-4d40-9bd9-dacded53db7e/TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95.svs
+Creating patches for:  TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95 ...
+Total number of contours to process:  5
+Bounding Box: 10789 34220 3363 4386
+Contour Area: 8001825.0
+Extracted 11 coordinates
+Bounding Box: 43734 11364 4035 2497
+Contour Area: 5599952.0
+Extracted 323 coordinates
+original size: 107567 x 77936
+downscaled size for stiching: 3361 x 2435
+start stitching TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75
+number of patches: 11424
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 10 coordinates
+Bounding Box: 36178 10659 4771 3138
+Contour Area: 7051010.0
+Extracted 11 coordinates
+Bounding Box: 5538 9891 29680 26955
+Contour Area: 410929709.0
+Extracted 425 coordinates
+Bounding Box: 2209 2560 10182 8965
+Contour Area: 51556987.0
+Extracted 60 coordinates
+original size: 48921 x 53555
+downscaled size for stiching: 1528 x 1673
+start stitching TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95
+number of patches: 517
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.4816112518310547 seconds
+patching took 0.921602725982666 seconds
+stitching took 1.1531484127044678 seconds
+
+
+progress: 0.02, 2/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/045d8d98-c26f-4d40-9bd9-dacded53db7e/TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95.svs
+Creating patches for:  TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95 ...
+Total number of contours to process:  5
+Bounding Box: 10789 34220 3363 4386
+Contour Area: 8001825.0
+Extracted 42 coordinates
+Bounding Box: 43734 11364 4035 2497
+Contour Area: 5599952.0
+Extracted 30 coordinates
+Bounding Box: 36178 10659 4771 3138
+Contour Area: 7051010.0
+Extracted 36 coordinates
+Bounding Box: 5538 9891 29680 26955
+Contour Area: 410929709.0
+Extracted 1625 coordinates
+Bounding Box: 2209 2560 10182 8965
+Contour Area: 51556987.0
+Extracted 217 coordinates
+original size: 48921 x 53555
+downscaled size for stiching: 1528 x 1673
+start stitching TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95
+number of patches: 1950
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 2.9321353435516357 seconds
+patching took 1.970933437347412 seconds
+stitching took 4.121003866195679 seconds
+
+
+progress: 0.01, 1/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/03878fc5-aee3-48af-8dc8-d2628b52d47b/TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75.svs
+Creating patches for:  TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75 ...
+Total number of contours to process:  4
+Bounding Box: 61512 62540 3394 3490
+Contour Area: 5688113.0
+Extracted 107 coordinates
+Bounding Box: 5952 47497 47528 25863
+Contour Area: 339851146.0
+Extracted 5390 coordinates
+Bounding Box: 24451 7777 79948 67663
+Contour Area: 2474776933.5
+Extracted 38192 coordinates
+Bounding Box: 3040 1184 9922 37160
+Contour Area: 71758834.0
+Extracted 1191 coordinates
+original size: 107567 x 77936
+downscaled size for stiching: 3361 x 2435
+start stitching TCGA-23-2649-01Z-00-DX1.C94C3B32-D5F5-4A85-9F35-50B377FF9E75
+number of patches: 44880
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 0.24208903312683105 seconds
+patching took 0.2832376956939697 seconds
+stitching took 0.09897160530090332 seconds
+
+
+progress: 0.03, 3/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/04953f26-592e-480d-a56a-bba3f61ed800/TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC.svs
+Creating patches for:  TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC ...
+Total number of contours to process:  4
+Bounding Box: 109763 30737 26578 24755
+Contour Area: 425380113.0
+Extracted 426 coordinates
+Bounding Box: 94163 15473 22898 18306
+Contour Area: 280721553.0
+Extracted 308 coordinates
+Bounding Box: 3536 15136 115797 74998
+Contour Area: 4860180043.0
+Extracted 4755 coordinates
+Bounding Box: 43137 576 96292 1105
+Contour Area: 16787632.0
+Extracted 51 coordinates
+original size: 139509 x 92358
+downscaled size for stiching: 8719 x 5772
+start stitching TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC
+number of patches: 5540
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 0.24842190742492676 seconds
+patching took 0.3961503505706787 seconds
+stitching took 0.20752763748168945 seconds
+
+
+progress: 0.03, 3/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/04953f26-592e-480d-a56a-bba3f61ed800/TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC.svs
+Creating patches for:  TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC ...
+Total number of contours to process:  4
+Bounding Box: 109763 30737 26578 24755
+Contour Area: 425380113.0
+Extracted 1670 coordinates
+Bounding Box: 94163 15473 22898 18306
+Contour Area: 280721553.0
+Extracted 1152 coordinates
+Bounding Box: 3536 15136 115797 74998
+Contour Area: 4860180043.0
+segmentation took 0.5417416095733643 seconds
+patching took 3.970355987548828 seconds
+stitching took 4.260051965713501 seconds
+
+
+progress: 0.02, 2/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/045d8d98-c26f-4d40-9bd9-dacded53db7e/TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95.svs
+Creating patches for:  TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95 ...
+Total number of contours to process:  5
+Bounding Box: 10789 34220 3363 4386
+Contour Area: 8001825.0
+Extracted 146 coordinates
+Bounding Box: 43734 11364 4035 2497
+Contour Area: 5599952.0
+Extracted 105 coordinates
+Bounding Box: 36178 10659 4771 3138
+Contour Area: 7051010.0
+Extracted 124 coordinates
+Bounding Box: 5538 9891 29680 26955
+Contour Area: 410929709.0
+Extracted 6283 coordinates
+Bounding Box: 2209 2560 10182 8965
+Contour Area: 51556987.0
+Extracted 18660 coordinates
+Bounding Box: 43137 576 96292 1105
+Contour Area: 16787632.0
+Extracted 835 coordinates
+original size: 48921 x 53555
+downscaled size for stiching: 1528 x 1673
+start stitching TCGA-57-1994-01Z-00-DX1.A0798185-30C5-4C32-B1A8-B440D4F4ED95
+number of patches: 7493
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+Extracted 169 coordinates
+original size: 139509 x 92358
+downscaled size for stiching: 8719 x 5772
+start stitching TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC
+number of patches: 21651
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 5.4726057052612305 seconds
+patching took 0.6377158164978027 seconds
+stitching took 3.0261456966400146 seconds
+
+
+progress: 0.04, 4/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/05d65a4b-59c7-44fa-907e-a8c811b6906f/TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F.svs
+Creating patches for:  TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F ...
+Total number of contours to process:  1
+Bounding Box: 3040 2528 104823 80994
+Contour Area: 5251418384.0
+Extracted 4870 coordinates
+original size: 109559 x 86018
+downscaled size for stiching: 3423 x 2688
+start stitching TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F
+number of patches: 4870
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.615896463394165 seconds
+patching took 0.30446553230285645 seconds
+stitching took 0.8088529109954834 seconds
+
+
+progress: 0.05, 5/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/06aaae91-591d-4cb0-b1e7-d89dc2b1979b/TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40.svs
+Creating patches for:  TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40 ...
+Total number of contours to process:  2
+Bounding Box: 320 8800 41066 41762
+Contour Area: 1080052887.0
+Extracted 1102 coordinates
+Bounding Box: 83186 1600 41738 42146
+Contour Area: 1107121080.0
+Extracted 1111 coordinates
+original size: 126620 x 52674
+downscaled size for stiching: 3956 x 1646
+start stitching TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40
+number of patches: 2213
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 5.072795629501343 seconds
+patching took 2.1634771823883057 seconds
+stitching took 4.24886155128479 seconds
+
+
+progress: 0.04, 4/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/05d65a4b-59c7-44fa-907e-a8c811b6906f/TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F.svs
+Creating patches for:  TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F ...
+Total number of contours to process:  1
+Bounding Box: 3040 2528 104823 80994
+Contour Area: 5251418384.0
+segmentation took 0.6027915477752686 seconds
+patching took 0.18579626083374023 seconds
+stitching took 0.38800692558288574 seconds
+
+
+progress: 0.06, 6/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/0afa1e88-9778-4070-93c7-8af7a5a559b2/TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc.svs
+Creating patches for:  TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc ...
+Total number of contours to process:  2
+Bounding Box: 1136 5937 48788 26072
+Contour Area: 840933008.0
+Extracted 856 coordinates
+Bounding Box: 20961 5121 3057 2786
+Contour Area: 4305416.0
+Extracted 7 coordinates
+original size: 55636 x 35353
+downscaled size for stiching: 3477 x 2209
+start stitching TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc
+number of patches: 863
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 19258 coordinates
+original size: 109559 x 86018
+downscaled size for stiching: 3423 x 2688
+start stitching TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F
+number of patches: 19258
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.7937700748443604 seconds
+patching took 0.15834450721740723 seconds
+stitching took 0.3965284824371338 seconds
+
+
+progress: 0.07, 7/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1026b52b-baef-4f3e-ae9e-a088fa2cf246/TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69.svs
+Creating patches for:  TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69 ...
+Total number of contours to process:  2
+Bounding Box: 72744 37185 5922 3233
+Contour Area: 10879008.0
+Extracted 14 coordinates
+Bounding Box: 0 1088 123471 90115
+Contour Area: 6850349414.0
+Extracted 6693 coordinates
+original size: 123503 x 91235
+downscaled size for stiching: 3859 x 2851
+start stitching TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69
+number of patches: 6707
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.2439272403717041 seconds
+patching took 0.7314043045043945 seconds
+stitching took 0.6212043762207031 seconds
+
+
+progress: 0.03, 3/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/04953f26-592e-480d-a56a-bba3f61ed800/TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC.svs
+Creating patches for:  TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC ...
+Total number of contours to process:  4
+Bounding Box: 109763 30737 26578 24755
+Contour Area: 425380113.0
+segmentation took 0.6125810146331787 seconds
+patching took 1.0825738906860352 seconds
+stitching took 2.6964266300201416 seconds
+
+
+progress: 0.05, 5/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/06aaae91-591d-4cb0-b1e7-d89dc2b1979b/TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40.svs
+Creating patches for:  TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40 ...
+Total number of contours to process:  2
+Bounding Box: 320 8800 41066 41762
+Contour Area: 1080052887.0
+Extracted 6536 coordinates
+Bounding Box: 94163 15473 22898 18306
+Contour Area: 280721553.0
+Extracted 4262 coordinates
+Bounding Box: 83186 1600 41738 42146
+Contour Area: 1107121080.0
+Extracted 4474 coordinates
+Bounding Box: 3536 15136 115797 74998
+Contour Area: 4860180043.0
+Extracted 4350 coordinates
+original size: 126620 x 52674
+downscaled size for stiching: 3956 x 1646
+start stitching TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40
+number of patches: 8612
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.8856537342071533 seconds
+patching took 0.6215517520904541 seconds
+stitching took 1.2153387069702148 seconds
+
+
+progress: 0.07, 8/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/119c07cb-d48d-430e-b96e-0e2136856d0e/TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704.svs
+Creating patches for:  TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704 ...
+Total number of contours to process:  1
+Bounding Box: 2656 3649 98817 56538
+Contour Area: 3792532368.0
+Extracted 3467 coordinates
+original size: 103584 x 61531
+downscaled size for stiching: 3237 x 1922
+start stitching TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704
+number of patches: 3467
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.631624698638916 seconds
+patching took 0.600395917892456 seconds
+stitching took 0.9017975330352783 seconds
+
+
+progress: 0.06, 6/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/0afa1e88-9778-4070-93c7-8af7a5a559b2/TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc.svs
+Creating patches for:  TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc ...
+Total number of contours to process:  2
+Bounding Box: 1136 5937 48788 26072
+Contour Area: 840933008.0
+Extracted 3304 coordinates
+Bounding Box: 20961 5121 3057 2786
+Contour Area: 4305416.0
+segmentation took 0.43152308464050293 seconds
+patching took 0.24559736251831055 seconds
+stitching took 0.5876977443695068 seconds
+
+
+progress: 0.08, 9/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/14e2668f-3db7-4bdd-b204-d4eceae6dffe/TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204.svs
+Creating patches for:  TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204 ...
+Total number of contours to process:  4
+Bounding Box: 45312 48614 4289 3170
+Contour Area: 5827648.0
+Extracted 9 coordinates
+Bounding Box: 81760 45830 5985 4930
+Contour Area: 7729040.0
+Extracted 14 coordinates
+Bounding Box: 59584 9025 52481 50632
+Contour Area: 1590711744.0
+Extracted 24 coordinates
+original size: 55636 x 35353
+downscaled size for stiching: 3477 x 2209
+start stitching TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc
+number of patches: 3328
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+Extracted 1477 coordinates
+Bounding Box: 5312 2368 54817 54056
+Contour Area: 2115870032.0
+Extracted 2023 coordinates
+original size: 113600 x 64745
+downscaled size for stiching: 3550 x 2023
+start stitching TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204
+number of patches: 3523
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.45474934577941895 seconds
+patching took 0.3725285530090332 seconds
+stitching took 0.5931718349456787 seconds
+
+
+progress: 0.09, 10/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/16432980-5544-466b-ab4a-251f517e63ec/TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF.svs
+Creating patches for:  TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF ...
+Total number of contours to process:  1
+Bounding Box: 3264 1984 25543 38286
+Contour Area: 483668925.0
+Extracted 499 coordinates
+original size: 31655 x 42254
+downscaled size for stiching: 1978 x 2640
+start stitching TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF
+number of patches: 499
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 0.7949855327606201 seconds
+patching took 0.3695518970489502 seconds
+stitching took 0.6038317680358887 seconds
+
+
+progress: 0.07, 7/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1026b52b-baef-4f3e-ae9e-a088fa2cf246/TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69.svs
+Creating patches for:  TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69 ...
+Total number of contours to process:  2
+Bounding Box: 72744 37185 5922 3233
+Contour Area: 10879008.0
+Extracted 53 coordinates
+Bounding Box: 0 1088 123471 90115
+Contour Area: 6850349414.0
+segmentation took 0.4832305908203125 seconds
+patching took 0.08336520195007324 seconds
+stitching took 0.2317509651184082 seconds
+
+
+progress: 0.10, 11/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/175c2a31-367e-46c1-a2fc-3893036619ba/TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE.svs
+Creating patches for:  TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE ...
+Total number of contours to process:  4
+Bounding Box: 45221 54682 4482 3138
+Contour Area: 8136433.0
+Extracted 11 coordinates
+Bounding Box: 24579 44693 7522 4771
+Contour Area: 18629696.0
+Extracted 27 coordinates
+Bounding Box: 2240 6851 78603 53403
+Contour Area: 2724933845.0
+Extracted 2709 coordinates
+Bounding Box: 51206 4770 7074 4003
+Contour Area: 15628978.0
+Extracted 19 coordinates
+original size: 87691 x 62270
+downscaled size for stiching: 2740 x 1945
+start stitching TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE
+number of patches: 2766
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 26505 coordinates
+original size: 123503 x 91235
+downscaled size for stiching: 3859 x 2851
+start stitching TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69
+number of patches: 26558
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 73753 coordinates
+Bounding Box: 43137 576 96292 1105
+Contour Area: 16787632.0
+Extracted 481 coordinates
+original size: 139509 x 92358
+downscaled size for stiching: 8719 x 5772
+start stitching TCGA-25-1329-01Z-00-DX1.6DD994F3-E426-4749-8ECA-9A0B87FF04DC
+number of patches: 85244
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 16x16
+segmentation took 0.8241772651672363 seconds
+patching took 1.9426443576812744 seconds
+stitching took 2.7324202060699463 seconds
+
+
+progress: 0.07, 8/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/119c07cb-d48d-430e-b96e-0e2136856d0e/TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704.svs
+Creating patches for:  TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704 ...
+Total number of contours to process:  1
+Bounding Box: 2656 3649 98817 56538
+Contour Area: 3792532368.0
+Extracted 13620 coordinates
+original size: 103584 x 61531
+downscaled size for stiching: 3237 x 1922
+start stitching TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704
+number of patches: 13620
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.3939197063446045 seconds
+patching took 0.7041482925415039 seconds
+stitching took 1.3898935317993164 seconds
+
+
+progress: 0.08, 9/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/14e2668f-3db7-4bdd-b204-d4eceae6dffe/TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204.svs
+Creating patches for:  TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204 ...
+Total number of contours to process:  4
+Bounding Box: 45312 48614 4289 3170
+Contour Area: 5827648.0
+Extracted 33 coordinates
+Bounding Box: 81760 45830 5985 4930
+Contour Area: 7729040.0
+Extracted 48 coordinates
+Bounding Box: 59584 9025 52481 50632
+Contour Area: 1590711744.0
+Extracted 5719 coordinates
+Bounding Box: 5312 2368 54817 54056
+Contour Area: 2115870032.0
+Extracted 7955 coordinates
+original size: 113600 x 64745
+downscaled size for stiching: 3550 x 2023
+start stitching TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204
+number of patches: 13755
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.5255999565124512 seconds
+patching took 1.0254437923431396 seconds
+stitching took 1.4350330829620361 seconds
+
+
+progress: 0.09, 10/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/16432980-5544-466b-ab4a-251f517e63ec/TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF.svs
+Creating patches for:  TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF ...
+Total number of contours to process:  1
+Bounding Box: 3264 1984 25543 38286
+Contour Area: 483668925.0
+Extracted 1912 coordinates
+original size: 31655 x 42254
+downscaled size for stiching: 1978 x 2640
+start stitching TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF
+number of patches: 1912
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 0.5112829208374023 seconds
+patching took 0.18195271492004395 seconds
+stitching took 0.3373589515686035 seconds
+
+
+progress: 0.10, 11/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/175c2a31-367e-46c1-a2fc-3893036619ba/TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE.svs
+Creating patches for:  TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE ...
+Total number of contours to process:  4
+Bounding Box: 45221 54682 4482 3138
+Contour Area: 8136433.0
+Extracted 39 coordinates
+Bounding Box: 24579 44693 7522 4771
+Contour Area: 18629696.0
+Extracted 85 coordinates
+Bounding Box: 2240 6851 78603 53403
+Contour Area: 2724933845.0
+segmentation took 0.40950560569763184 seconds
+patching took 0.32041335105895996 seconds
+stitching took 0.4691464900970459 seconds
+
+
+progress: 0.11, 12/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1c48bfff-8768-4367-b195-3145e12441dc/TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0.svs
+Creating patches for:  TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0 ...
+Total number of contours to process:  16
+Bounding Box: 45844 90696 5778 2081
+Contour Area: 4996768.0
+Extracted 8 coordinates
+Bounding Box: 65286 83576 9250 5601
+Contour Area: 12169416.0
+Extracted 19 coordinates
+Bounding Box: 78151 82824 7474 5361
+Contour Area: 13744256.0
+Extracted 20 coordinates
+Bounding Box: 100346 77239 9570 8114
+Contour Area: 6631800.0
+Extracted 17 coordinates
+Bounding Box: 129709 70838 3361 3138
+Contour Area: 4815240.0
+Extracted 7 coordinates
+Bounding Box: 128333 63878 2401 3073
+Contour Area: 4416640.0
+Extracted 5 coordinates
+Bounding Box: 117915 63510 2770 4209
+Contour Area: 4813008.0
+Extracted 6 coordinates
+Bounding Box: 126764 61894 3106 2833
+Contour Area: 5504152.0
+Extracted 8 coordinates
+Bounding Box: 132621 61237 4337 3234
+Contour Area: 5662600.0
+Extracted 10579 coordinates
+Bounding Box: 51206 4770 7074 4003
+Contour Area: 15628978.0
+Extracted 9 coordinates
+Bounding Box: 120348 55157 23523 20579
+Contour Area: 127020889.0
+Extracted 163 coordinates
+Bounding Box: 106042 54853 13123 11826
+Contour Area: 30098208.0
+segmentation took 5.0761284828186035 seconds
+patching took 8.156973838806152 seconds
+stitching took 9.6037278175354 seconds
+
+
+progress: 0.04, 4/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/05d65a4b-59c7-44fa-907e-a8c811b6906f/TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F.svs
+Creating patches for:  TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F ...
+Total number of contours to process:  1
+Bounding Box: 3040 2528 104823 80994
+Contour Area: 5251418384.0
+Extracted 49 coordinates
+Bounding Box: 118332 52245 3921 5457
+Contour Area: 10522624.0
+Extracted 14 coordinates
+Bounding Box: 115739 48932 3698 3842
+Contour Area: 10297921.0
+Extracted 75 coordinates
+original size: 87691 x 62270
+downscaled size for stiching: 2740 x 1945
+start stitching TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE
+number of patches: 10778
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 7 coordinates
+Bounding Box: 113195 43828 3553 5569
+Contour Area: 8180352.0
+Extracted 15 coordinates
+Bounding Box: 102058 20369 4769 5634
+Contour Area: 17164928.0
+Extracted 23 coordinates
+Bounding Box: 1424 272 110972 90473
+Contour Area: 7004512514.0
+Extracted 6633 coordinates
+original size: 147407 x 92793
+downscaled size for stiching: 9212 x 5799
+start stitching TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0
+number of patches: 7003
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 76416 coordinates
+original size: 109559 x 86018
+downscaled size for stiching: 3423 x 2688
+start stitching TCGA-23-1809-01Z-00-DX1.A8767DEC-EB1A-4EDC-906E-C0560A30455F
+number of patches: 76416
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 0.3813140392303467 seconds
+patching took 1.0147078037261963 seconds
+stitching took 1.1247622966766357 seconds
+
+
+progress: 0.11, 12/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1c48bfff-8768-4367-b195-3145e12441dc/TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0.svs
+Creating patches for:  TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0 ...
+Total number of contours to process:  16
+Bounding Box: 45844 90696 5778 2081
+Contour Area: 4996768.0
+Extracted 27 coordinates
+Bounding Box: 65286 83576 9250 5601
+Contour Area: 12169416.0
+Extracted 65 coordinates
+Bounding Box: 78151 82824 7474 5361
+Contour Area: 13744256.0
+Extracted 74 coordinates
+Bounding Box: 100346 77239 9570 8114
+Contour Area: 6631800.0
+Extracted 48 coordinates
+Bounding Box: 129709 70838 3361 3138
+Contour Area: 4815240.0
+segmentation took 0.6207318305969238 seconds
+patching took 4.157076597213745 seconds
+stitching took 6.6391565799713135 seconds
+
+
+progress: 0.05, 5/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/06aaae91-591d-4cb0-b1e7-d89dc2b1979b/TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40.svs
+Creating patches for:  TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40 ...
+Total number of contours to process:  2
+Bounding Box: 320 8800 41066 41762
+Contour Area: 1080052887.0
+Extracted 26 coordinates
+Bounding Box: 128333 63878 2401 3073
+Contour Area: 4416640.0
+Extracted 21 coordinates
+Bounding Box: 117915 63510 2770 4209
+Contour Area: 4813008.0
+Extracted 25 coordinates
+Bounding Box: 126764 61894 3106 2833
+Contour Area: 5504152.0
+Extracted 28 coordinates
+Bounding Box: 132621 61237 4337 3234
+Contour Area: 5662600.0
+Extracted 31 coordinates
+Bounding Box: 120348 55157 23523 20579
+Contour Area: 127020889.0
+Extracted 563 coordinates
+Bounding Box: 106042 54853 13123 11826
+Contour Area: 30098208.0
+Extracted 152 coordinates
+Bounding Box: 118332 52245 3921 5457
+Contour Area: 10522624.0
+Extracted 16773 coordinates
+Bounding Box: 83186 1600 41738 42146
+Contour Area: 1107121080.0
+Extracted 48 coordinates
+Bounding Box: 115739 48932 3698 3842
+Contour Area: 10297921.0
+Extracted 27 coordinates
+Bounding Box: 113195 43828 3553 5569
+Contour Area: 8180352.0
+Extracted 40 coordinates
+Bounding Box: 102058 20369 4769 5634
+Contour Area: 17164928.0
+Extracted 80 coordinates
+Bounding Box: 1424 272 110972 90473
+Contour Area: 7004512514.0
+Extracted 17121 coordinates
+original size: 126620 x 52674
+downscaled size for stiching: 3956 x 1646
+start stitching TCGA-42-2591-01Z-00-DX1.ea85e14f-5f0a-4ed0-9afe-025bb95fca40
+number of patches: 33894
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+Extracted 26169 coordinates
+original size: 147407 x 92793
+downscaled size for stiching: 9212 x 5799
+start stitching TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0
+number of patches: 27424
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 0.6563591957092285 seconds
+patching took 1.7575914859771729 seconds
+stitching took 2.8435122966766357 seconds
+
+
+progress: 0.06, 6/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/0afa1e88-9778-4070-93c7-8af7a5a559b2/TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc.svs
+Creating patches for:  TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc ...
+Total number of contours to process:  2
+Bounding Box: 1136 5937 48788 26072
+Contour Area: 840933008.0
+Extracted 12927 coordinates
+Bounding Box: 20961 5121 3057 2786
+Contour Area: 4305416.0
+Extracted 79 coordinates
+original size: 55636 x 35353
+downscaled size for stiching: 3477 x 2209
+start stitching TCGA-42-2587-01Z-00-DX1.7a887a16-a8bc-403b-ab71-a8b43e5613fc
+number of patches: 13006
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 16x16
+segmentation took 1.3815734386444092 seconds
+patching took 1.190420150756836 seconds
+stitching took 1.4292619228363037 seconds
+
+
+progress: 0.07, 7/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1026b52b-baef-4f3e-ae9e-a088fa2cf246/TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69.svs
+Creating patches for:  TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69 ...
+Total number of contours to process:  2
+Bounding Box: 72744 37185 5922 3233
+Contour Area: 10879008.0
+Extracted 194 coordinates
+Bounding Box: 0 1088 123471 90115
+Contour Area: 6850349414.0
+segmentation took 6.628743886947632 seconds
+patching took 1.765493631362915 seconds
+stitching took 4.1477580070495605 seconds
+
+
+progress: 0.12, 13/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1d4f5e1e-f6d5-480d-be7d-8ba2cc2d7fd1/TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E.svs
+Creating patches for:  TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E ...
+Total number of contours to process:  5
+Bounding Box: 53152 71439 34657 11267
+Contour Area: 202444896.0
+segmentation took 5.789872407913208 seconds
+patching took 5.538123846054077 seconds
+stitching took 5.305469036102295 seconds
+
+
+progress: 0.12, 13/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1d4f5e1e-f6d5-480d-be7d-8ba2cc2d7fd1/TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E.svs
+Creating patches for:  TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E ...
+Total number of contours to process:  5
+Bounding Box: 53152 71439 34657 11267
+Contour Area: 202444896.0
+Extracted 217 coordinates
+Bounding Box: 75424 50954 4321 3138
+Contour Area: 8345280.0
+Extracted 11 coordinates
+Bounding Box: 9760 23012 87329 45099
+Contour Area: 1872973456.0
+Extracted 826 coordinates
+Bounding Box: 75424 50954 4321 3138
+Contour Area: 8345280.0
+Extracted 1753 coordinates
+Bounding Box: 84896 6081 3745 3650
+Contour Area: 7582576.0
+Extracted 12 coordinates
+Bounding Box: 1888 2112 89761 40009
+Contour Area: 1822123600.0
+Extracted 40 coordinates
+Bounding Box: 9760 23012 87329 45099
+Contour Area: 1872973456.0
+Extracted 1744 coordinates
+original size: 99649 x 84722
+downscaled size for stiching: 3114 x 2647
+start stitching TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E
+number of patches: 3737
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 6841 coordinates
+Bounding Box: 84896 6081 3745 3650
+Contour Area: 7582576.0
+Extracted 37 coordinates
+Bounding Box: 1888 2112 89761 40009
+Contour Area: 1822123600.0
+Extracted 6804 coordinates
+original size: 99649 x 84722
+downscaled size for stiching: 3114 x 2647
+start stitching TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E
+number of patches: 14548
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 18.979190349578857 seconds
+patching took 0.9483020305633545 seconds
+stitching took 0.6434369087219238 seconds
+
+
+progress: 0.13, 14/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1f36b223-160e-4453-bdab-b38a7bf7611b/TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141.svs
+Creating patches for:  TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141 ...
+Total number of contours to process:  2
+Bounding Box: 6242 75566 4674 3682
+Contour Area: 10887361.0
+Extracted 16 coordinates
+Bounding Box: 2464 1184 89662 72975
+Contour Area: 3767662766.0
+Extracted 3576 coordinates
+original size: 95615 x 83024
+downscaled size for stiching: 2987 x 2594
+start stitching TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141
+number of patches: 3592
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 2.640723943710327 seconds
+patching took 2.308864116668701 seconds
+stitching took 1.8980700969696045 seconds
+
+
+progress: 0.13, 14/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1f36b223-160e-4453-bdab-b38a7bf7611b/TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141.svs
+Creating patches for:  TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141 ...
+Total number of contours to process:  2
+Bounding Box: 6242 75566 4674 3682
+Contour Area: 10887361.0
+Extracted 104790 coordinates
+original size: 123503 x 91235
+downscaled size for stiching: 3859 x 2851
+start stitching TCGA-23-1107-01Z-00-DX1.5B9C1283-62B5-4329-873D-009FA939CA69
+number of patches: 104984
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+Extracted 53 coordinates
+Bounding Box: 2464 1184 89662 72975
+Contour Area: 3767662766.0
+segmentation took 0.6846246719360352 seconds
+patching took 0.3382124900817871 seconds
+stitching took 0.62929368019104 seconds
+
+
+progress: 0.14, 15/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/203462bb-edad-49b6-994a-2bf9b0b664e7/TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1.svs
+Creating patches for:  TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1 ...
+Total number of contours to process:  1
+Bounding Box: 2624 1408 113767 90908
+Contour Area: 6884996969.0
+Extracted 6602 coordinates
+original size: 121511 x 92348
+downscaled size for stiching: 3797 x 2885
+start stitching TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1
+number of patches: 6602
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 14086 coordinates
+original size: 95615 x 83024
+downscaled size for stiching: 2987 x 2594
+start stitching TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141
+number of patches: 14139
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.9492959976196289 seconds
+patching took 0.4205474853515625 seconds
+stitching took 1.2179834842681885 seconds
+
+
+progress: 0.15, 16/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/237cd6d0-fbec-481a-b58a-2f798df0c1df/TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A.svs
+Creating patches for:  TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A ...
+Total number of contours to process:  2
+Bounding Box: 3968 21345 10820 24579
+Contour Area: 98444610.0
+Extracted 118 coordinates
+Bounding Box: 4192 832 96151 66854
+Contour Area: 4048049018.0
+Extracted 4009 coordinates
+original size: 101591 x 72710
+downscaled size for stiching: 3174 x 2272
+start stitching TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A
+number of patches: 4127
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.5196597576141357 seconds
+patching took 0.9927823543548584 seconds
+stitching took 1.442016363143921 seconds
+
+
+progress: 0.14, 15/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/203462bb-edad-49b6-994a-2bf9b0b664e7/TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1.svs
+Creating patches for:  TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1 ...
+Total number of contours to process:  1
+Bounding Box: 2624 1408 113767 90908
+Contour Area: 6884996969.0
+segmentation took 0.5513708591461182 seconds
+patching took 0.3444249629974365 seconds
+stitching took 0.6829228401184082 seconds
+
+
+progress: 0.16, 17/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/261a95f3-1ec4-48ee-9b63-efe8faa8b6b1/TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b.svs
+Creating patches for:  TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b ...
+Total number of contours to process:  4
+Bounding Box: 1344 55669 18376 16391
+Contour Area: 187270539.0
+Extracted 196 coordinates
+Bounding Box: 63158 49843 18760 15719
+Contour Area: 189639403.0
+Extracted 202 coordinates
+Bounding Box: 3777 8291 18343 15303
+Contour Area: 196106396.0
+Extracted 204 coordinates
+Bounding Box: 64791 2016 18631 15527
+Contour Area: 194430218.0
+Extracted 200 coordinates
+original size: 83454 x 72092
+downscaled size for stiching: 2607 x 2252
+start stitching TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b
+number of patches: 802
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 26034 coordinates
+original size: 121511 x 92348
+downscaled size for stiching: 3797 x 2885
+start stitching TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1
+number of patches: 26034
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.7389051914215088 seconds
+patching took 8.325621366500854 seconds
+stitching took 8.990751028060913 seconds
+
+
+progress: 0.07, 8/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/119c07cb-d48d-430e-b96e-0e2136856d0e/TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704.svs
+Creating patches for:  TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704 ...
+Total number of contours to process:  1
+Bounding Box: 2656 3649 98817 56538
+Contour Area: 3792532368.0
+segmentation took 0.805915117263794 seconds
+patching took 1.4020004272460938 seconds
+stitching took 2.66654634475708 seconds
+
+
+progress: 0.15, 16/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/237cd6d0-fbec-481a-b58a-2f798df0c1df/TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A.svs
+Creating patches for:  TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A ...
+Total number of contours to process:  2
+Bounding Box: 3968 21345 10820 24579
+Contour Area: 98444610.0
+Extracted 414 coordinates
+Bounding Box: 4192 832 96151 66854
+Contour Area: 4048049018.0
+Extracted 15749 coordinates
+original size: 101591 x 72710
+downscaled size for stiching: 3174 x 2272
+start stitching TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A
+number of patches: 16163
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.4844229221343994 seconds
+patching took 0.9061169624328613 seconds
+stitching took 1.6731209754943848 seconds
+
+
+progress: 0.16, 17/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/261a95f3-1ec4-48ee-9b63-efe8faa8b6b1/TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b.svs
+Creating patches for:  TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b ...
+Total number of contours to process:  4
+Bounding Box: 1344 55669 18376 16391
+Contour Area: 187270539.0
+Extracted 752 coordinates
+Bounding Box: 63158 49843 18760 15719
+Contour Area: 189639403.0
+Extracted 762 coordinates
+Bounding Box: 3777 8291 18343 15303
+Contour Area: 196106396.0
+Extracted 782 coordinates
+Bounding Box: 64791 2016 18631 15527
+Contour Area: 194430218.0
+Extracted 779 coordinates
+original size: 83454 x 72092
+downscaled size for stiching: 2607 x 2252
+start stitching TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b
+number of patches: 3075
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 54072 coordinates
+original size: 103584 x 61531
+downscaled size for stiching: 3237 x 1922
+start stitching TCGA-5X-AA5U-01Z-00-DX1.1A03C105-4086-4AAB-B821-A9E8156FA704
+number of patches: 54072
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 0.42856526374816895 seconds
+patching took 0.20807170867919922 seconds
+stitching took 0.15860629081726074 seconds
+
+
+progress: 0.17, 18/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/26a2ec96-cdf1-419e-b0b3-55d2a2db0fd2/TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E.svs
+Creating patches for:  TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E ...
+Total number of contours to process:  3
+Bounding Box: 28321 35891 4545 2353
+Contour Area: 4338176.0
+Extracted 7 coordinates
+Bounding Box: 0 112 145399 94409
+Contour Area: 6990163183.0
+segmentation took 0.4507148265838623 seconds
+patching took 3.7527782917022705 seconds
+stitching took 4.521852731704712 seconds
+
+
+progress: 0.08, 9/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/14e2668f-3db7-4bdd-b204-d4eceae6dffe/TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204.svs
+Creating patches for:  TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204 ...
+Total number of contours to process:  4
+Bounding Box: 45312 48614 4289 3170
+Contour Area: 5827648.0
+Extracted 116 coordinates
+Bounding Box: 81760 45830 5985 4930
+Contour Area: 7729040.0
+Extracted 162 coordinates
+Bounding Box: 59584 9025 52481 50632
+Contour Area: 1590711744.0
+Extracted 6818 coordinates
+Bounding Box: 86772 0 58627 369
+Contour Area: 11310936.0
+Extracted 9 coordinates
+original size: 145415 x 94537
+downscaled size for stiching: 9088 x 5908
+start stitching TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E
+number of patches: 6834
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 22427 coordinates
+Bounding Box: 5312 2368 54817 54056
+Contour Area: 2115870032.0
+Extracted 31551 coordinates
+original size: 113600 x 64745
+downscaled size for stiching: 3550 x 2023
+start stitching TCGA-25-2408-01Z-00-DX1.760F6B8D-A61E-4C87-B90D-82E1AF56C204
+number of patches: 54256
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 6.501187324523926 seconds
+patching took 1.0776820182800293 seconds
+stitching took 3.551774501800537 seconds
+
+
+progress: 0.18, 19/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/2a7d579e-d730-4bd6-bb1e-1bd5a61c1f78/TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568.svs
+Creating patches for:  TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568 ...
+Total number of contours to process:  4
+Bounding Box: 36674 64980 4514 3298
+Contour Area: 9450593.0
+Extracted 12 coordinates
+Bounding Box: 44483 56113 9698 20199
+Contour Area: 78255251.0
+segmentation took 0.48097920417785645 seconds
+patching took 0.6059319972991943 seconds
+stitching took 0.35576915740966797 seconds
+
+
+progress: 0.17, 18/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/26a2ec96-cdf1-419e-b0b3-55d2a2db0fd2/TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E.svs
+Creating patches for:  TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E ...
+Total number of contours to process:  3
+Bounding Box: 28321 35891 4545 2353
+Contour Area: 4338176.0
+Extracted 96 coordinates
+Bounding Box: 2432 10691 53445 65749
+Contour Area: 2045609437.0
+Extracted 28 coordinates
+Bounding Box: 0 112 145399 94409
+Contour Area: 6990163183.0
+Extracted 1957 coordinates
+Bounding Box: 54052 1952 56901 70967
+Contour Area: 1777396046.0
+Extracted 1801 coordinates
+original size: 115593 x 83322
+downscaled size for stiching: 3612 x 2603
+start stitching TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568
+number of patches: 3866
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.6571991443634033 seconds
+patching took 0.7714605331420898 seconds
+stitching took 0.7063603401184082 seconds
+
+
+progress: 0.19, 20/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/2f1f3b6b-3285-48c0-929a-43e33d73afa9/TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E.svs
+Creating patches for:  TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E ...
+Total number of contours to process:  6
+Bounding Box: 82195 82004 3970 3074
+Contour Area: 6781552.0
+Extracted 9 coordinates
+Bounding Box: 104601 80756 6467 8739
+Contour Area: 26048146.0
+Extracted 35 coordinates
+Bounding Box: 123646 40554 2241 5826
+Contour Area: 5330288.0
+Extracted 10 coordinates
+Bounding Box: 3040 5857 56527 78837
+Contour Area: 2639797475.0
+segmentation took 0.440201997756958 seconds
+patching took 3.0617835521698 seconds
+stitching took 5.048086404800415 seconds
+
+
+progress: 0.09, 10/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/16432980-5544-466b-ab4a-251f517e63ec/TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF.svs
+Creating patches for:  TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF ...
+Total number of contours to process:  1
+Bounding Box: 3264 1984 25543 38286
+Contour Area: 483668925.0
+Extracted 2602 coordinates
+Bounding Box: 91318 2976 2497 5059
+Contour Area: 7225104.0
+Extracted 9 coordinates
+Bounding Box: 44394 992 72403 76596
+Contour Area: 2643034963.5
+Extracted 2646 coordinates
+original size: 127487 x 91863
+downscaled size for stiching: 3983 x 2870
+start stitching TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E
+number of patches: 5311
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 7536 coordinates
+original size: 31655 x 42254
+downscaled size for stiching: 1978 x 2640
+start stitching TCGA-57-1993-01Z-00-DX1.464F641B-AA9F-49A7-A224-88D9847159DF
+number of patches: 7536
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 16x16
+Extracted 27147 coordinates
+Bounding Box: 86772 0 58627 369
+Contour Area: 11310936.0
+Extracted 112 coordinates
+original size: 145415 x 94537
+downscaled size for stiching: 9088 x 5908
+start stitching TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E
+number of patches: 27287
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 0.5006535053253174 seconds
+patching took 0.49329137802124023 seconds
+stitching took 0.7808411121368408 seconds
+
+
+progress: 0.10, 11/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/175c2a31-367e-46c1-a2fc-3893036619ba/TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE.svs
+Creating patches for:  TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE ...
+Total number of contours to process:  4
+Bounding Box: 45221 54682 4482 3138
+Contour Area: 8136433.0
+Extracted 145 coordinates
+Bounding Box: 24579 44693 7522 4771
+Contour Area: 18629696.0
+Extracted 316 coordinates
+Bounding Box: 2240 6851 78603 53403
+Contour Area: 2724933845.0
+segmentation took 0.7609250545501709 seconds
+patching took 0.5630221366882324 seconds
+stitching took 0.9904630184173584 seconds
+
+
+progress: 0.20, 21/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/31f28d7e-f865-484d-9038-9af2fbf31dd4/TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483.svs
+Creating patches for:  TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483 ...
+Total number of contours to process:  1
+Bounding Box: 1824 960 113086 62859
+Contour Area: 5333863832.0
+Extracted 5132 coordinates
+original size: 119519 x 66507
+downscaled size for stiching: 3734 x 2078
+start stitching TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483
+number of patches: 5132
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 41674 coordinates
+Bounding Box: 51206 4770 7074 4003
+Contour Area: 15628978.0
+Extracted 278 coordinates
+original size: 87691 x 62270
+downscaled size for stiching: 2740 x 1945
+start stitching TCGA-25-1870-01Z-00-DX1.780BB62D-71C1-4B21-A2F4-61AC4B0234EE
+number of patches: 42413
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 5.454578399658203 seconds
+patching took 3.954078197479248 seconds
+stitching took 5.258145570755005 seconds
+
+
+progress: 0.18, 19/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/2a7d579e-d730-4bd6-bb1e-1bd5a61c1f78/TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568.svs
+Creating patches for:  TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568 ...
+Total number of contours to process:  4
+Bounding Box: 36674 64980 4514 3298
+Contour Area: 9450593.0
+Extracted 49 coordinates
+Bounding Box: 44483 56113 9698 20199
+Contour Area: 78255251.0
+Extracted 341 coordinates
+Bounding Box: 2432 10691 53445 65749
+Contour Area: 2045609437.0
+Extracted 7678 coordinates
+Bounding Box: 54052 1952 56901 70967
+Contour Area: 1777396046.0
+Extracted 6919 coordinates
+original size: 115593 x 83322
+downscaled size for stiching: 3612 x 2603
+start stitching TCGA-25-1630-01Z-00-DX1.75C53351-1511-4CCE-97AC-1650010AC568
+number of patches: 14987
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.539963960647583 seconds
+patching took 0.4026498794555664 seconds
+stitching took 0.8495829105377197 seconds
+
+
+progress: 0.21, 22/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/344ffb99-1cb6-4dd6-9ab9-e523cad78bbe/TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423.svs
+Creating patches for:  TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423 ...
+Total number of contours to process:  22
+Bounding Box: 4640 71680 7505 4753
+Contour Area: 16699008.0
+Extracted 23 coordinates
+Bounding Box: 90196 70288 7698 4833
+Contour Area: 17124672.0
+Extracted 24 coordinates
+Bounding Box: 16384 66400 5266 3089
+Contour Area: 9389408.0
+Extracted 14 coordinates
+Bounding Box: 23841 65536 7393 6609
+Contour Area: 12306560.0
+Extracted 18 coordinates
+Bounding Box: 102021 64688 5393 3185
+Contour Area: 9494272.0
+Extracted 14 coordinates
+Bounding Box: 109605 63536 7314 6977
+Contour Area: 12359648.0
+Extracted 19 coordinates
+Bounding Box: 16736 61360 5106 4001
+Contour Area: 7808584.0
+Extracted 11 coordinates
+Bounding Box: 102469 59664 5137 4065
+Contour Area: 8109056.0
+Extracted 11 coordinates
+Bounding Box: 36001 23872 4002 2593
+Contour Area: 6434088.0
+Extracted 10 coordinates
+Bounding Box: 39570 22032 3169 3857
+Contour Area: 6315264.0
+Extracted 9 coordinates
+Bounding Box: 120886 20112 6769 4417
+Contour Area: 13069568.0
+Extracted 21 coordinates
+Bounding Box: 103477 19488 3425 3249
+Contour Area: 4295424.0
+Extracted 8 coordinates
+Bounding Box: 34721 18336 11922 5457
+Contour Area: 31775192.0
+Extracted 44 coordinates
+Bounding Box: 119574 16400 12033 5473
+Contour Area: 31613824.0
+Extracted 43 coordinates
+Bounding Box: 44482 16032 2689 2833
+Contour Area: 5092096.0
+Extracted 8 coordinates
+Bounding Box: 40786 14624 2753 3809
+Contour Area: 6869760.0
+Extracted 11 coordinates
+Bounding Box: 129206 14048 2769 2849
+Contour Area: 5509376.0
+Extracted 9 coordinates
+Bounding Box: 125606 12688 2737 3809
+Contour Area: 7045248.0
+Extracted 11 coordinates
+Bounding Box: 31025 10752 9954 6545
+Contour Area: 36398048.0
+Extracted 44 coordinates
+Bounding Box: 115797 8864 10018 6577
+Contour Area: 36730632.0
+Extracted 44 coordinates
+Bounding Box: 0 7840 42899 60465
+Contour Area: 1352693488.0
+Extracted 1383 coordinates
+Bounding Box: 85652 5808 42451 60993
+Contour Area: 1359195280.0
+segmentation took 0.6464972496032715 seconds
+patching took 2.029888391494751 seconds
+stitching took 2.00893497467041 seconds
+
+
+progress: 0.19, 20/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/2f1f3b6b-3285-48c0-929a-43e33d73afa9/TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E.svs
+Creating patches for:  TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E ...
+Total number of contours to process:  6
+Bounding Box: 82195 82004 3970 3074
+Contour Area: 6781552.0
+Extracted 35 coordinates
+Bounding Box: 104601 80756 6467 8739
+Contour Area: 26048146.0
+Extracted 122 coordinates
+Bounding Box: 123646 40554 2241 5826
+Contour Area: 5330288.0
+Extracted 33 coordinates
+Bounding Box: 3040 5857 56527 78837
+Contour Area: 2639797475.0
+Extracted 1381 coordinates
+original size: 136135 x 79809
+downscaled size for stiching: 8508 x 4988
+start stitching TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423
+number of patches: 3160
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 10242 coordinates
+Bounding Box: 91318 2976 2497 5059
+Contour Area: 7225104.0
+Extracted 36 coordinates
+Bounding Box: 44394 992 72403 76596
+Contour Area: 2643034963.5
+Extracted 10307 coordinates
+original size: 127487 x 91863
+downscaled size for stiching: 3983 x 2870
+start stitching TCGA-23-2072-01Z-00-DX1.478243FF-BFF0-48A4-ADEA-DE789331A50E
+number of patches: 20775
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 4.052510499954224 seconds
+patching took 1.7305376529693604 seconds
+stitching took 1.7743005752563477 seconds
+
+
+progress: 0.21, 23/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/36639be1-fbc4-4e9c-8cdf-61667d6c7852/TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961.svs
+Creating patches for:  TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961 ...
+Total number of contours to process:  8
+Bounding Box: 15552 57230 24513 17990
+Contour Area: 208125984.0
+Extracted 220 coordinates
+Bounding Box: 102848 40106 3521 3010
+Contour Area: 5359872.0
+Extracted 8 coordinates
+Bounding Box: 106048 39082 3937 3906
+Contour Area: 5302000.0
+Extracted 9 coordinates
+Bounding Box: 98048 32968 7361 6371
+Contour Area: 16948640.0
+Extracted 25 coordinates
+Bounding Box: 94112 27495 3393 2529
+Contour Area: 4807168.0
+Extracted 8 coordinates
+Bounding Box: 47840 24326 62689 54191
+Contour Area: 2180900096.0
+Extracted 2146 coordinates
+Bounding Box: 2368 13251 50753 42604
+Contour Area: 1290297168.0
+Extracted 1292 coordinates
+Bounding Box: 87232 2176 24449 26408
+Contour Area: 372125168.0
+Extracted 378 coordinates
+original size: 113600 x 80757
+downscaled size for stiching: 3550 x 2523
+start stitching TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961
+number of patches: 4086
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.7689273357391357 seconds
+patching took 1.6897103786468506 seconds
+stitching took 2.43603253364563 seconds
+
+
+progress: 0.20, 21/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/31f28d7e-f865-484d-9038-9af2fbf31dd4/TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483.svs
+Creating patches for:  TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483 ...
+Total number of contours to process:  1
+Bounding Box: 1824 960 113086 62859
+Contour Area: 5333863832.0
+segmentation took 0.36442041397094727 seconds
+patching took 2.7064926624298096 seconds
+stitching took 3.5042669773101807 seconds
+
+
+progress: 0.11, 12/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1c48bfff-8768-4367-b195-3145e12441dc/TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0.svs
+Creating patches for:  TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0 ...
+Total number of contours to process:  16
+Bounding Box: 45844 90696 5778 2081
+Contour Area: 4996768.0
+Extracted 109 coordinates
+Bounding Box: 65286 83576 9250 5601
+Contour Area: 12169416.0
+Extracted 239 coordinates
+Bounding Box: 78151 82824 7474 5361
+Contour Area: 13744256.0
+Extracted 256 coordinates
+Bounding Box: 100346 77239 9570 8114
+Contour Area: 6631800.0
+Extracted 150 coordinates
+Bounding Box: 129709 70838 3361 3138
+Contour Area: 4815240.0
+Extracted 20259 coordinates
+original size: 119519 x 66507
+downscaled size for stiching: 3734 x 2078
+start stitching TCGA-23-1023-01Z-00-DX1.0C96E118-A4D9-4A9A-B95E-C0AA114D2483
+number of patches: 20259
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 92 coordinates
+Bounding Box: 128333 63878 2401 3073
+Contour Area: 4416640.0
+Extracted 79 coordinates
+Bounding Box: 117915 63510 2770 4209
+Contour Area: 4813008.0
+Extracted 96 coordinates
+Bounding Box: 126764 61894 3106 2833
+Contour Area: 5504152.0
+segmentation took 0.6278302669525146 seconds
+patching took 1.1215424537658691 seconds
+stitching took 0.7355091571807861 seconds
+
+
+progress: 0.22, 24/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/370f6c18-2391-43b7-a73a-c3933c4d0c96/TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC.svs
+Creating patches for:  TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC ...
+Total number of contours to process:  2
+Bounding Box: 2144 8706 40782 61105
+Contour Area: 1606810804.0
+Extracted 97 coordinates
+Bounding Box: 132621 61237 4337 3234
+Contour Area: 5662600.0
+Extracted 1590 coordinates
+Bounding Box: 48495 3136 41390 63282
+Contour Area: 1822383240.0
+Extracted 109 coordinates
+Bounding Box: 120348 55157 23523 20579
+Contour Area: 127020889.0
+Extracted 2114 coordinates
+Bounding Box: 106042 54853 13123 11826
+Contour Area: 30098208.0
+Extracted 1802 coordinates
+original size: 91677 x 72051
+downscaled size for stiching: 2864 x 2251
+start stitching TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC
+number of patches: 3392
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 544 coordinates
+Bounding Box: 118332 52245 3921 5457
+Contour Area: 10522624.0
+Extracted 176 coordinates
+Bounding Box: 115739 48932 3698 3842
+Contour Area: 10297921.0
+Extracted 106 coordinates
+Bounding Box: 113195 43828 3553 5569
+Contour Area: 8180352.0
+Extracted 133 coordinates
+Bounding Box: 102058 20369 4769 5634
+Contour Area: 17164928.0
+Extracted 298 coordinates
+Bounding Box: 1424 272 110972 90473
+Contour Area: 7004512514.0
+segmentation took 0.7678189277648926 seconds
+patching took 1.1185381412506104 seconds
+stitching took 0.6597774028778076 seconds
+
+
+progress: 0.23, 25/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/389509ee-a0e7-40a1-b693-3febfc0dd2b5/TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2.svs
+Creating patches for:  TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2 ...
+Total number of contours to process:  3
+Bounding Box: 63723 55944 14179 7330
+Contour Area: 50243297.0
+Extracted 58 coordinates
+Bounding Box: 57514 6881 64844 62058
+Contour Area: 2623103750.0
+Extracted 2582 coordinates
+Bounding Box: 1632 3264 58667 61418
+Contour Area: 2706513769.0
+Extracted 2569 coordinates
+original size: 125558 x 71179
+downscaled size for stiching: 3923 x 2224
+start stitching TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2
+number of patches: 5209
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.693596363067627 seconds
+patching took 0.47806620597839355 seconds
+stitching took 0.8983838558197021 seconds
+
+
+progress: 0.24, 26/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3acfb6c4-a58c-414f-afff-ce59d1f20245/TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13.svs
+Creating patches for:  TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13 ...
+Total number of contours to process:  2
+Bounding Box: 89120 7232 32449 41927
+Contour Area: 717302848.0
+Extracted 729 coordinates
+Bounding Box: 1824 256 30241 41190
+Contour Area: 684889952.0
+Extracted 692 coordinates
+original size: 121824 x 51111
+downscaled size for stiching: 3807 x 1597
+start stitching TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13
+number of patches: 1421
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.4972712993621826 seconds
+patching took 0.17597651481628418 seconds
+stitching took 0.2615048885345459 seconds
+
+
+progress: 0.25, 27/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3e28255d-5e19-434a-a38a-11d1c8cf7ab5/TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1.svs
+Creating patches for:  TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1 ...
+Total number of contours to process:  2
+Bounding Box: 9665 66585 7459 3171
+Contour Area: 10642449.0
+Extracted 16 coordinates
+Bounding Box: 3360 1184 111415 66459
+Contour Area: 3857829399.0
+Extracted 3794 coordinates
+original size: 117527 x 71900
+downscaled size for stiching: 3672 x 2246
+start stitching TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1
+number of patches: 3810
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.5670480728149414 seconds
+patching took 1.0475273132324219 seconds
+stitching took 2.0801243782043457 seconds
+
+
+progress: 0.21, 22/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/344ffb99-1cb6-4dd6-9ab9-e523cad78bbe/TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423.svs
+Creating patches for:  TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423 ...
+Total number of contours to process:  22
+Bounding Box: 4640 71680 7505 4753
+Contour Area: 16699008.0
+Extracted 75 coordinates
+Bounding Box: 90196 70288 7698 4833
+Contour Area: 17124672.0
+Extracted 80 coordinates
+Bounding Box: 16384 66400 5266 3089
+Contour Area: 9389408.0
+Extracted 47 coordinates
+Bounding Box: 23841 65536 7393 6609
+Contour Area: 12306560.0
+Extracted 68 coordinates
+Bounding Box: 102021 64688 5393 3185
+Contour Area: 9494272.0
+Extracted 46 coordinates
+Bounding Box: 109605 63536 7314 6977
+Contour Area: 12359648.0
+Extracted 66 coordinates
+Bounding Box: 16736 61360 5106 4001
+Contour Area: 7808584.0
+Extracted 40 coordinates
+Bounding Box: 102469 59664 5137 4065
+Contour Area: 8109056.0
+Extracted 41 coordinates
+Bounding Box: 36001 23872 4002 2593
+Contour Area: 6434088.0
+segmentation took 0.533287763595581 seconds
+patching took 0.32181763648986816 seconds
+stitching took 0.6307227611541748 seconds
+
+
+progress: 0.26, 28/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3fea33f3-3ecd-4787-90f0-52b1f0ba7728/TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE.svs
+Creating patches for:  TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE ...
+Total number of contours to process:  2
+Bounding Box: 83066 21861 9316 6754
+Contour Area: 40062274.0
+Extracted 35 coordinates
+Bounding Box: 39570 22032 3169 3857
+Contour Area: 6315264.0
+Extracted 51 coordinates
+Bounding Box: 2464 1472 88190 51309
+Contour Area: 2780054022.0
+Extracted 33 coordinates
+Bounding Box: 120886 20112 6769 4417
+Contour Area: 13069568.0
+Extracted 66 coordinates
+Bounding Box: 103477 19488 3425 3249
+Contour Area: 4295424.0
+Extracted 2760 coordinates
+original size: 95615 x 55437
+downscaled size for stiching: 2987 x 1732
+start stitching TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE
+number of patches: 2811
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 23 coordinates
+Bounding Box: 34721 18336 11922 5457
+Contour Area: 31775192.0
+Extracted 153 coordinates
+Bounding Box: 119574 16400 12033 5473
+Contour Area: 31613824.0
+Extracted 153 coordinates
+Bounding Box: 44482 16032 2689 2833
+Contour Area: 5092096.0
+Extracted 24 coordinates
+Bounding Box: 40786 14624 2753 3809
+Contour Area: 6869760.0
+Extracted 34 coordinates
+Bounding Box: 129206 14048 2769 2849
+Contour Area: 5509376.0
+Extracted 28 coordinates
+Bounding Box: 125606 12688 2737 3809
+Contour Area: 7045248.0
+Extracted 33 coordinates
+Bounding Box: 31025 10752 9954 6545
+Contour Area: 36398048.0
+Extracted 160 coordinates
+Bounding Box: 115797 8864 10018 6577
+Contour Area: 36730632.0
+Extracted 162 coordinates
+Bounding Box: 0 7840 42899 60465
+Contour Area: 1352693488.0
+Extracted 5333 coordinates
+Bounding Box: 85652 5808 42451 60993
+Contour Area: 1359195280.0
+segmentation took 0.3325483798980713 seconds
+patching took 0.26917076110839844 seconds
+stitching took 0.4712512493133545 seconds
+
+
+progress: 0.27, 29/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4031ad6f-f307-4922-b431-8f4182336408/TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387.svs
+Creating patches for:  TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387 ...
+Total number of contours to process:  2
+Bounding Box: 2656 1280 80310 69145
+Contour Area: 2921271165.0
+Extracted 2861 coordinates
+Bounding Box: 68113 0 48654 79677
+Contour Area: 2280188208.5
+Extracted 5283 coordinates
+original size: 136135 x 79809
+downscaled size for stiching: 8508 x 4988
+start stitching TCGA-OY-A56P-01Z-00-DX1.59CA76B0-5613-48CB-ACE7-6F808B8A9423
+number of patches: 11983
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+Extracted 2081 coordinates
+original size: 119519 x 81885
+downscaled size for stiching: 3734 x 2558
+start stitching TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387
+number of patches: 4942
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.6264731884002686 seconds
+patching took 0.3694803714752197 seconds
+stitching took 0.9109747409820557 seconds
+
+
+progress: 0.28, 30/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/408c3f05-7964-4a30-ab09-627edcf890c4/TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1.svs
+Creating patches for:  TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1 ...
+Total number of contours to process:  1
+Bounding Box: 512 1984 106551 61181
+Contour Area: 3490971308.0
+Extracted 3405 coordinates
+original size: 109559 x 65566
+downscaled size for stiching: 3423 x 2048
+start stitching TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1
+number of patches: 3405
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 3.7602407932281494 seconds
+patching took 3.0466129779815674 seconds
+stitching took 2.7336533069610596 seconds
+
+
+progress: 0.21, 23/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/36639be1-fbc4-4e9c-8cdf-61667d6c7852/TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961.svs
+Creating patches for:  TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961 ...
+Total number of contours to process:  8
+Bounding Box: 15552 57230 24513 17990
+Contour Area: 208125984.0
+Extracted 841 coordinates
+Bounding Box: 102848 40106 3521 3010
+Contour Area: 5359872.0
+Extracted 26 coordinates
+Bounding Box: 106048 39082 3937 3906
+Contour Area: 5302000.0
+Extracted 31 coordinates
+Bounding Box: 98048 32968 7361 6371
+Contour Area: 16948640.0
+Extracted 83 coordinates
+Bounding Box: 94112 27495 3393 2529
+Contour Area: 4807168.0
+Extracted 25 coordinates
+Bounding Box: 47840 24326 62689 54191
+Contour Area: 2180900096.0
+Extracted 8464 coordinates
+Bounding Box: 2368 13251 50753 42604
+Contour Area: 1290297168.0
+Extracted 104063 coordinates
+original size: 147407 x 92793
+downscaled size for stiching: 9212 x 5799
+start stitching TCGA-23-2641-01Z-00-DX1.DB792236-39EC-4090-9938-B0915C3378A0
+number of patches: 108661
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 16x16
+Extracted 5041 coordinates
+Bounding Box: 87232 2176 24449 26408
+Contour Area: 372125168.0
+Extracted 1438 coordinates
+original size: 113600 x 80757
+downscaled size for stiching: 3550 x 2523
+start stitching TCGA-25-2396-01Z-00-DX1.3E755B49-EFC5-49B8-A381-0B06DAE56961
+number of patches: 15949
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 1.1773581504821777 seconds
+patching took 2.25038743019104 seconds
+stitching took 1.6814815998077393 seconds
+
+
+progress: 0.22, 24/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/370f6c18-2391-43b7-a73a-c3933c4d0c96/TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC.svs
+Creating patches for:  TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC ...
+Total number of contours to process:  2
+Bounding Box: 2144 8706 40782 61105
+Contour Area: 1606810804.0
+Extracted 6246 coordinates
+Bounding Box: 48495 3136 41390 63282
+Contour Area: 1822383240.0
+Extracted 7096 coordinates
+original size: 91677 x 72051
+downscaled size for stiching: 2864 x 2251
+start stitching TCGA-25-1625-01Z-00-DX1.64A0B073-8EC8-4BE1-BECA-B956A6A96FCC
+number of patches: 13342
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.4177584648132324 seconds
+patching took 0.6911139488220215 seconds
+stitching took 1.3377220630645752 seconds
+
+
+progress: 0.23, 25/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/389509ee-a0e7-40a1-b693-3febfc0dd2b5/TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2.svs
+Creating patches for:  TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2 ...
+Total number of contours to process:  3
+Bounding Box: 63723 55944 14179 7330
+Contour Area: 50243297.0
+Extracted 219 coordinates
+Bounding Box: 57514 6881 64844 62058
+Contour Area: 2623103750.0
+segmentation took 0.42922043800354004 seconds
+patching took 0.2548248767852783 seconds
+stitching took 0.5909252166748047 seconds
+
+
+progress: 0.29, 31/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/479341d8-2acd-4aa9-afe2-9d29e9b0f5ac/TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5.svs
+Creating patches for:  TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5 ...
+Total number of contours to process:  27
+Bounding Box: 100640 84419 4753 5377
+Contour Area: 13053440.0
+Extracted 10126 coordinates
+Bounding Box: 1632 3264 58667 61418
+Contour Area: 2706513769.0
+Extracted 18 coordinates
+Bounding Box: 49824 82947 4849 6849
+Contour Area: 19233664.0
+Extracted 24 coordinates
+Bounding Box: 66864 76659 10305 8961
+Contour Area: 40524800.0
+Extracted 53 coordinates
+Bounding Box: 93008 72611 2641 5073
+Contour Area: 6676992.0
+Extracted 11 coordinates
+Bounding Box: 69888 70771 3185 5137
+Contour Area: 8201856.0
+Extracted 10 coordinates
+Bounding Box: 76160 70531 19649 13457
+Contour Area: 114796800.0
+Extracted 143 coordinates
+Bounding Box: 77776 66242 11201 4402
+Contour Area: 34968944.0
+Extracted 40 coordinates
+Bounding Box: 43952 64722 3105 4002
+Contour Area: 6968192.0
+Extracted 10 coordinates
+Bounding Box: 89104 62610 6529 9234
+Contour Area: 25543832.0
+Extracted 36 coordinates
+Bounding Box: 51472 56210 12129 17650
+Contour Area: 143001432.0
+Extracted 153 coordinates
+Bounding Box: 70448 54658 2129 4177
+Contour Area: 4589440.0
+Extracted 10130 coordinates
+original size: 125558 x 71179
+downscaled size for stiching: 3923 x 2224
+start stitching TCGA-25-1623-01Z-00-DX1.28D89405-5F27-47CF-ABC7-01AB494C28D2
+number of patches: 20475
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 7 coordinates
+Bounding Box: 1360 39937 44529 48259
+Contour Area: 1458893376.0
+Extracted 1376 coordinates
+Bounding Box: 68272 37713 19905 26866
+Contour Area: 336055520.0
+Extracted 343 coordinates
+Bounding Box: 6496 36033 4065 7489
+Contour Area: 6575104.0
+Extracted 13 coordinates
+Bounding Box: 34240 33345 28625 12082
+Contour Area: 102161216.0
+Extracted 120 coordinates
+Bounding Box: 18176 28193 7313 3873
+Contour Area: 16693120.0
+Extracted 22 coordinates
+Bounding Box: 55712 28017 3297 4289
+Contour Area: 6799232.0
+Extracted 11 coordinates
+Bounding Box: 27568 19280 3697 3250
+Contour Area: 7356320.0
+Extracted 10 coordinates
+Bounding Box: 44960 18544 12433 13234
+Contour Area: 86250552.0
+Extracted 102 coordinates
+Bounding Box: 36368 17504 7249 7554
+Contour Area: 26211456.0
+Extracted 34 coordinates
+Bounding Box: 41456 14800 5297 5073
+Contour Area: 13518592.0
+Extracted 19 coordinates
+Bounding Box: 46928 13552 5713 2513
+Contour Area: 6016256.0
+Extracted 11 coordinates
+Bounding Box: 34720 12528 3953 2833
+Contour Area: 4776576.0
+Extracted 8 coordinates
+Bounding Box: 18944 10544 18209 14546
+Contour Area: 81442384.0
+Extracted 104 coordinates
+Bounding Box: 90304 2352 52689 74996
+Contour Area: 2901767768.0
+Extracted 2425 coordinates
+Bounding Box: 26432 0 13969 2193
+Contour Area: 16301696.0
+Extracted 20 coordinates
+Bounding Box: 0 0 14417 35618
+Contour Area: 166500432.0
+Extracted 191 coordinates
+original size: 145488 x 89812
+downscaled size for stiching: 9093 x 5613
+start stitching TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5
+number of patches: 5314
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 0.5886778831481934 seconds
+patching took 1.0561375617980957 seconds
+stitching took 2.1089532375335693 seconds
+
+
+progress: 0.24, 26/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3acfb6c4-a58c-414f-afff-ce59d1f20245/TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13.svs
+Creating patches for:  TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13 ...
+Total number of contours to process:  2
+Bounding Box: 89120 7232 32449 41927
+Contour Area: 717302848.0
+Extracted 2830 coordinates
+Bounding Box: 1824 256 30241 41190
+Contour Area: 684889952.0
+Extracted 2674 coordinates
+original size: 121824 x 51111
+downscaled size for stiching: 3807 x 1597
+start stitching TCGA-42-2588-01Z-00-DX1.e0bd9f78-2078-4bc3-867b-136d117f7b13
+number of patches: 5504
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.5274903774261475 seconds
+patching took 0.45008325576782227 seconds
+stitching took 0.5996990203857422 seconds
+
+
+progress: 0.25, 27/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3e28255d-5e19-434a-a38a-11d1c8cf7ab5/TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1.svs
+Creating patches for:  TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1 ...
+Total number of contours to process:  2
+Bounding Box: 9665 66585 7459 3171
+Contour Area: 10642449.0
+Extracted 54 coordinates
+Bounding Box: 3360 1184 111415 66459
+Contour Area: 3857829399.0
+Extracted 14917 coordinates
+original size: 117527 x 71900
+downscaled size for stiching: 3672 x 2246
+start stitching TCGA-23-1032-01Z-00-DX1.0C1074AE-D59C-4C74-B929-593AE89E5DC1
+number of patches: 14971
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 5.704988241195679 seconds
+patching took 18.461069107055664 seconds
+stitching took 11.479158639907837 seconds
+
+
+progress: 0.12, 13/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1d4f5e1e-f6d5-480d-be7d-8ba2cc2d7fd1/TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E.svs
+Creating patches for:  TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E ...
+Total number of contours to process:  5
+Bounding Box: 53152 71439 34657 11267
+Contour Area: 202444896.0
+Extracted 3204 coordinates
+Bounding Box: 75424 50954 4321 3138
+Contour Area: 8345280.0
+Extracted 145 coordinates
+Bounding Box: 9760 23012 87329 45099
+Contour Area: 1872973456.0
+segmentation took 0.5765666961669922 seconds
+patching took 1.1526820659637451 seconds
+stitching took 1.5325367450714111 seconds
+
+
+progress: 0.26, 28/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/3fea33f3-3ecd-4787-90f0-52b1f0ba7728/TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE.svs
+Creating patches for:  TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE ...
+Total number of contours to process:  2
+Bounding Box: 83066 21861 9316 6754
+Contour Area: 40062274.0
+Extracted 173 coordinates
+Bounding Box: 2464 1472 88190 51309
+Contour Area: 2780054022.0
+segmentation took 5.685133695602417 seconds
+patching took 2.4966979026794434 seconds
+stitching took 3.1496636867523193 seconds
+
+
+progress: 0.30, 32/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/480c9945-2809-4b1f-affd-1fb534b2f910/TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a.svs
+Creating patches for:  TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a ...
+Total number of contours to process:  4
+Bounding Box: 1344 4336 28881 20866
+Contour Area: 318073304.0
+Extracted 10810 coordinates
+original size: 95615 x 55437
+downscaled size for stiching: 2987 x 1732
+start stitching TCGA-23-1111-01Z-00-DX1.A99421E1-C73E-42AE-990F-E5E6D26EDDBE
+number of patches: 10983
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+Extracted 344 coordinates
+Bounding Box: 57089 3456 22610 18930
+Contour Area: 209467960.0
+Extracted 26987 coordinates
+Bounding Box: 84896 6081 3745 3650
+Contour Area: 7582576.0
+Extracted 224 coordinates
+Bounding Box: 103795 3280 27281 28450
+Contour Area: 344906176.0
+Extracted 132 coordinates
+Bounding Box: 1888 2112 89761 40009
+Contour Area: 1822123600.0
+Extracted 377 coordinates
+Bounding Box: 50465 1104 12001 20546
+Contour Area: 113950984.0
+Extracted 130 coordinates
+original size: 136212 x 33730
+downscaled size for stiching: 8513 x 2108
+start stitching TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a
+number of patches: 1075
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 0.3482232093811035 seconds
+patching took 0.9592387676239014 seconds
+stitching took 1.1094837188720703 seconds
+
+
+progress: 0.27, 29/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4031ad6f-f307-4922-b431-8f4182336408/TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387.svs
+Creating patches for:  TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387 ...
+Total number of contours to process:  2
+Bounding Box: 2656 1280 80310 69145
+Contour Area: 2921271165.0
+Extracted 26845 coordinates
+original size: 99649 x 84722
+downscaled size for stiching: 3114 x 2647
+start stitching TCGA-25-1628-01Z-00-DX1.8275623E-8A30-4ABB-8846-34DAEE43523E
+number of patches: 57313
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+Extracted 11299 coordinates
+Bounding Box: 68113 0 48654 79677
+Contour Area: 2280188208.5
+Extracted 8215 coordinates
+original size: 119519 x 81885
+downscaled size for stiching: 3734 x 2558
+start stitching TCGA-23-2647-01Z-00-DX1.21E5D0D8-6BA8-4D49-BA70-EC228CF10387
+number of patches: 19514
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.6350369453430176 seconds
+patching took 0.9997072219848633 seconds
+stitching took 1.9592297077178955 seconds
+
+
+progress: 0.28, 30/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/408c3f05-7964-4a30-ab09-627edcf890c4/TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1.svs
+Creating patches for:  TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1 ...
+Total number of contours to process:  1
+Bounding Box: 512 1984 106551 61181
+Contour Area: 3490971308.0
+Extracted 13427 coordinates
+original size: 109559 x 65566
+downscaled size for stiching: 3423 x 2048
+start stitching TCGA-23-1031-01Z-00-DX1.12B1996D-E5BB-424C-B59E-4BE7E1ED6BA1
+number of patches: 13427
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 1.9319863319396973 seconds
+patching took 4.234219074249268 seconds
+stitching took 4.725052356719971 seconds
+
+
+progress: 0.13, 14/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/1f36b223-160e-4453-bdab-b38a7bf7611b/TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141.svs
+Creating patches for:  TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141 ...
+Total number of contours to process:  2
+Bounding Box: 6242 75566 4674 3682
+Contour Area: 10887361.0
+Extracted 192 coordinates
+Bounding Box: 2464 1184 89662 72975
+Contour Area: 3767662766.0
+Extracted 55716 coordinates
+original size: 95615 x 83024
+downscaled size for stiching: 2987 x 2594
+start stitching TCGA-23-1022-01Z-00-DX1.AF9E523E-CB0F-4AB5-AD43-C96731BF9141
+number of patches: 55908
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 2.124079704284668 seconds
+patching took 0.7398667335510254 seconds
+stitching took 0.8765730857849121 seconds
+
+
+progress: 0.31, 33/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/496a9678-8a4a-4cd5-8505-09230da8a846/TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F.svs
+Creating patches for:  TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F ...
+Total number of contours to process:  11
+Bounding Box: 74995 87712 16690 2401
+Contour Area: 23346336.0
+Extracted 39 coordinates
+Bounding Box: 122213 75136 6450 5105
+Contour Area: 8962608.0
+Extracted 14 coordinates
+Bounding Box: 26481 74256 20338 12769
+Contour Area: 49122592.0
+Extracted 76 coordinates
+Bounding Box: 5424 71168 3585 5169
+Contour Area: 7885952.0
+Extracted 13 coordinates
+Bounding Box: 106901 71088 22434 14625
+Contour Area: 52258640.0
+Extracted 75 coordinates
+Bounding Box: 10432 4272 7185 2209
+Contour Area: 5658752.0
+Extracted 8 coordinates
+Bounding Box: 85348 64 55539 77137
+Contour Area: 2900248264.0
+Extracted 2818 coordinates
+Bounding Box: 60034 0 16546 5329
+Contour Area: 52649224.0
+Extracted 51 coordinates
+Bounding Box: 46002 0 8049 4257
+Contour Area: 6821888.0
+Extracted 11 coordinates
+Bounding Box: 0 0 57987 79217
+Contour Area: 2988798856.0
+Extracted 2919 coordinates
+Bounding Box: 0 0 16417 5041
+Contour Area: 43873664.0
+Extracted 52 coordinates
+original size: 143495 x 90128
+downscaled size for stiching: 8968 x 5633
+start stitching TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F
+number of patches: 6076
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 0.49228572845458984 seconds
+patching took 3.204185962677002 seconds
+stitching took 4.571187257766724 seconds
+
+
+progress: 0.14, 15/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/203462bb-edad-49b6-994a-2bf9b0b664e7/TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1.svs
+Creating patches for:  TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1 ...
+Total number of contours to process:  1
+Bounding Box: 2624 1408 113767 90908
+Contour Area: 6884996969.0
+segmentation took 0.4320409297943115 seconds
+patching took 0.7150373458862305 seconds
+stitching took 1.364366054534912 seconds
+
+
+progress: 0.29, 31/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/479341d8-2acd-4aa9-afe2-9d29e9b0f5ac/TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5.svs
+Creating patches for:  TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5 ...
+Total number of contours to process:  27
+Bounding Box: 100640 84419 4753 5377
+Contour Area: 13053440.0
+Extracted 57 coordinates
+Bounding Box: 49824 82947 4849 6849
+Contour Area: 19233664.0
+Extracted 90 coordinates
+Bounding Box: 66864 76659 10305 8961
+Contour Area: 40524800.0
+Extracted 187 coordinates
+Bounding Box: 93008 72611 2641 5073
+Contour Area: 6676992.0
+segmentation took 5.568503379821777 seconds
+patching took 1.4365875720977783 seconds
+stitching took 3.298039436340332 seconds
+
+
+progress: 0.32, 34/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4c00dfa1-a735-4473-b469-47b3f0825dfb/TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B.svs
+Creating patches for:  TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B ...
+Total number of contours to process:  2
+Bounding Box: 736 9600 56227 62242
+Contour Area: 2208465698.0
+Extracted 36 coordinates
+Bounding Box: 69888 70771 3185 5137
+Contour Area: 8201856.0
+Extracted 41 coordinates
+Bounding Box: 76160 70531 19649 13457
+Contour Area: 114796800.0
+Extracted 2151 coordinates
+Bounding Box: 49090 2336 55619 65378
+Contour Area: 2328936274.0
+Extracted 510 coordinates
+Bounding Box: 77776 66242 11201 4402
+Contour Area: 34968944.0
+Extracted 150 coordinates
+Bounding Box: 43952 64722 3105 4002
+Contour Area: 6968192.0
+Extracted 2284 coordinates
+original size: 107621 x 74178
+downscaled size for stiching: 3363 x 2318
+start stitching TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B
+number of patches: 4435
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 35 coordinates
+Bounding Box: 89104 62610 6529 9234
+Contour Area: 25543832.0
+Extracted 120 coordinates
+Bounding Box: 51472 56210 12129 17650
+Contour Area: 143001432.0
+Extracted 580 coordinates
+Bounding Box: 70448 54658 2129 4177
+Contour Area: 4589440.0
+Extracted 24 coordinates
+Bounding Box: 1360 39937 44529 48259
+Contour Area: 1458893376.0
+Extracted 5379 coordinates
+Bounding Box: 68272 37713 19905 26866
+Contour Area: 336055520.0
+Extracted 1337 coordinates
+Bounding Box: 6496 36033 4065 7489
+Contour Area: 6575104.0
+Extracted 37 coordinates
+Bounding Box: 34240 33345 28625 12082
+Contour Area: 102161216.0
+Extracted 436 coordinates
+Bounding Box: 18176 28193 7313 3873
+Contour Area: 16693120.0
+Extracted 76 coordinates
+Bounding Box: 55712 28017 3297 4289
+Contour Area: 6799232.0
+Extracted 38 coordinates
+Bounding Box: 27568 19280 3697 3250
+Contour Area: 7356320.0
+Extracted 36 coordinates
+Bounding Box: 44960 18544 12433 13234
+Contour Area: 86250552.0
+Extracted 374 coordinates
+Bounding Box: 36368 17504 7249 7554
+Contour Area: 26211456.0
+Extracted 121 coordinates
+Bounding Box: 41456 14800 5297 5073
+Contour Area: 13518592.0
+Extracted 67 coordinates
+Bounding Box: 46928 13552 5713 2513
+Contour Area: 6016256.0
+Extracted 32 coordinates
+Bounding Box: 34720 12528 3953 2833
+Contour Area: 4776576.0
+Extracted 29 coordinates
+Bounding Box: 18944 10544 18209 14546
+Contour Area: 81442384.0
+Extracted 367 coordinates
+Bounding Box: 90304 2352 52689 74996
+Contour Area: 2901767768.0
+Extracted 9523 coordinates
+Bounding Box: 26432 0 13969 2193
+Contour Area: 16301696.0
+Extracted 78 coordinates
+Bounding Box: 0 0 14417 35618
+Contour Area: 166500432.0
+Extracted 706 coordinates
+original size: 145488 x 89812
+downscaled size for stiching: 9093 x 5613
+start stitching TCGA-25-1317-01Z-00-DX1.2E7A7AF9-4D04-4EBD-8C79-7117F76511D5
+number of patches: 20466
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+Extracted 103399 coordinates
+original size: 121511 x 92348
+downscaled size for stiching: 3797 x 2885
+start stitching TCGA-23-1117-01Z-00-DX1.783914B6-B079-4828-B77B-4C6306FAE4C1
+number of patches: 103399
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 0.6576821804046631 seconds
+patching took 0.4284482002258301 seconds
+stitching took 0.750892162322998 seconds
+
+
+progress: 0.33, 35/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4dab86c6-7921-4577-8e1b-d5e2577452fa/TCGA-25-1632-01Z-00-DX1.B911E6FF-D6A9-4AC7-873C-58B2059DE7E6.svs
+Creating patches for:  TCGA-25-1632-01Z-00-DX1.B911E6FF-D6A9-4AC7-873C-58B2059DE7E6 ...
+Total number of contours to process:  14
+Bounding Box: 0 63129 4769 4913
+Contour Area: 7966464.0
+Extracted 13 coordinates
+Bounding Box: 0 50023 4129 3249
+Contour Area: 5613312.0
+Extracted 8 coordinates
+Bounding Box: 2832 22659 56725 42599
+Contour Area: 1615765851.0
+Extracted 1536 coordinates
+Bounding Box: 89399 20130 56166 44024
+Contour Area: 1606975667.0
+Extracted 1530 coordinates
+Bounding Box: 6128 17298 15634 8514
+Contour Area: 58629288.0
+Extracted 72 coordinates
+Bounding Box: 90375 17266 16002 8066
+Contour Area: 60545536.0
+Extracted 76 coordinates
+Bounding Box: 29378 14210 3057 3905
+Contour Area: 7160576.0
+Extracted 9 coordinates
+Bounding Box: 54004 13329 4081 3250
+Contour Area: 7679576.0
+Extracted 12 coordinates
+Bounding Box: 113241 12593 2897 4114
+Contour Area: 7341280.0
+Extracted 10 coordinates
+Bounding Box: 14401 10897 18466 5874
+Contour Area: 41797209.0
+Extracted 51 coordinates
+Bounding Box: 35955 9713 3521 5538
+Contour Area: 9988416.0
+Extracted 16 coordinates
+Bounding Box: 98216 9425 18146 7106
+Contour Area: 42389616.0
+Extracted 55 coordinates
+Bounding Box: 138555 9409 4161 3233
+Contour Area: 6753152.0
+Extracted 11 coordinates
+Bounding Box: 119113 7553 3490 4337
+Contour Area: 8504688.0
+Extracted 13 coordinates
+original size: 155453 x 68058
+downscaled size for stiching: 9715 x 4253
+start stitching TCGA-25-1632-01Z-00-DX1.B911E6FF-D6A9-4AC7-873C-58B2059DE7E6
+number of patches: 3412
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+segmentation took 5.028311491012573 seconds
+patching took 4.081326484680176 seconds
+stitching took 4.0623650550842285 seconds
+
+
+progress: 0.30, 32/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/480c9945-2809-4b1f-affd-1fb534b2f910/TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a.svs
+Creating patches for:  TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a ...
+Total number of contours to process:  4
+Bounding Box: 1344 4336 28881 20866
+Contour Area: 318073304.0
+Extracted 1307 coordinates
+Bounding Box: 57089 3456 22610 18930
+Contour Area: 209467960.0
+Extracted 854 coordinates
+Bounding Box: 103795 3280 27281 28450
+Contour Area: 344906176.0
+Extracted 1415 coordinates
+Bounding Box: 50465 1104 12001 20546
+Contour Area: 113950984.0
+Extracted 484 coordinates
+original size: 136212 x 33730
+downscaled size for stiching: 8513 x 2108
+start stitching TCGA-42-2582-01Z-00-DX1.891d6182-c96b-4709-abeb-314d6874856a
+number of patches: 4060
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 0.7995223999023438 seconds
+patching took 5.890433311462402 seconds
+stitching took 8.454116106033325 seconds
+
+
+progress: 0.15, 16/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/237cd6d0-fbec-481a-b58a-2f798df0c1df/TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A.svs
+Creating patches for:  TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A ...
+Total number of contours to process:  2
+Bounding Box: 3968 21345 10820 24579
+Contour Area: 98444610.0
+Extracted 1596 coordinates
+Bounding Box: 4192 832 96151 66854
+Contour Area: 4048049018.0
+Extracted 62306 coordinates
+original size: 101591 x 72710
+downscaled size for stiching: 3174 x 2272
+start stitching TCGA-23-1029-01Z-00-DX1.0044B39A-51B3-4F76-90A9-00CDF851DE2A
+number of patches: 63902
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+segmentation took 4.157660484313965 seconds
+patching took 1.1973018646240234 seconds
+stitching took 1.9866960048675537 seconds
+
+
+progress: 0.34, 36/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4e14d8ce-dd18-4b91-9d14-5b0127e50eaf/TCGA-25-1318-01Z-00-DX1.742CB28E-DB0A-4BE1-8047-5265FE80F861.svs
+Creating patches for:  TCGA-25-1318-01Z-00-DX1.742CB28E-DB0A-4BE1-8047-5265FE80F861 ...
+Total number of contours to process:  7
+Bounding Box: 106854 66694 3585 6002
+Contour Area: 5289704.0
+Extracted 7 coordinates
+Bounding Box: 25137 55765 2481 3345
+Contour Area: 5304320.0
+Extracted 8 coordinates
+Bounding Box: 75956 50549 31827 28612
+Contour Area: 493988901.0
+Extracted 517 coordinates
+Bounding Box: 86677 48932 4945 2514
+Contour Area: 5786032.0
+Extracted 9 coordinates
+Bounding Box: 2320 27346 67269 57703
+Contour Area: 2044228612.0
+Extracted 2019 coordinates
+Bounding Box: 126935 27186 5570 7330
+Contour Area: 20962833.0
+Extracted 27 coordinates
+Bounding Box: 30497 2080 116072 85097
+Contour Area: 2705498865.0
+segmentation took 1.9731700420379639 seconds
+patching took 1.0028846263885498 seconds
+stitching took 1.1418185234069824 seconds
+
+
+progress: 0.31, 33/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/496a9678-8a4a-4cd5-8505-09230da8a846/TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F.svs
+Creating patches for:  TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F ...
+Total number of contours to process:  11
+Bounding Box: 74995 87712 16690 2401
+Contour Area: 23346336.0
+segmentation took 0.49472808837890625 seconds
+patching took 3.3772025108337402 seconds
+stitching took 5.211355924606323 seconds
+
+
+progress: 0.16, 17/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/261a95f3-1ec4-48ee-9b63-efe8faa8b6b1/TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b.svs
+Creating patches for:  TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b ...
+Total number of contours to process:  4
+Bounding Box: 1344 55669 18376 16391
+Contour Area: 187270539.0
+Extracted 112 coordinates
+Bounding Box: 122213 75136 6450 5105
+Contour Area: 8962608.0
+Extracted 49 coordinates
+Bounding Box: 26481 74256 20338 12769
+Contour Area: 49122592.0
+Extracted 2940 coordinates
+Bounding Box: 63158 49843 18760 15719
+Contour Area: 189639403.0
+Extracted 255 coordinates
+Bounding Box: 5424 71168 3585 5169
+Contour Area: 7885952.0
+Extracted 45 coordinates
+Bounding Box: 106901 71088 22434 14625
+Contour Area: 52258640.0
+Extracted 266 coordinates
+Bounding Box: 10432 4272 7185 2209
+Contour Area: 5658752.0
+Extracted 2973 coordinates
+Bounding Box: 3777 8291 18343 15303
+Contour Area: 196106396.0
+Extracted 33 coordinates
+Bounding Box: 85348 64 55539 77137
+Contour Area: 2900248264.0
+Extracted 2757 coordinates
+original size: 147481 x 88857
+downscaled size for stiching: 9217 x 5553
+start stitching TCGA-25-1318-01Z-00-DX1.742CB28E-DB0A-4BE1-8047-5265FE80F861
+number of patches: 5344
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 64x64
+Extracted 3061 coordinates
+Bounding Box: 64791 2016 18631 15527
+Contour Area: 194430218.0
+Extracted 3041 coordinates
+original size: 83454 x 72092
+downscaled size for stiching: 2607 x 2252
+start stitching TCGA-42-2589-01Z-00-DX1.c3abd56a-7d75-4972-982f-3d86da96ad1b
+number of patches: 12015
+patch size: 256 x 256 patch level: 0
+ref patch size: (256, 256) x (256, 256)
+downscaled patch size: 8x8
+Extracted 11083 coordinates
+Bounding Box: 60034 0 16546 5329
+Contour Area: 52649224.0
+Extracted 220 coordinates
+Bounding Box: 46002 0 8049 4257
+Contour Area: 6821888.0
+Extracted 39 coordinates
+Bounding Box: 0 0 57987 79217
+Contour Area: 2988798856.0
+Extracted 11440 coordinates
+Bounding Box: 0 0 16417 5041
+Contour Area: 43873664.0
+Extracted 191 coordinates
+original size: 143495 x 90128
+downscaled size for stiching: 8968 x 5633
+start stitching TCGA-25-1631-01Z-00-DX1.7CA82CFB-E5F6-4148-8B5E-088B7FE6331F
+number of patches: 23733
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 32x32
+segmentation took 5.246957540512085 seconds
+patching took 1.6535515785217285 seconds
+stitching took 3.0573177337646484 seconds
+
+
+progress: 0.35, 37/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/5485be59-c306-49ac-aec8-fce97b81a638/TCGA-25-2398-01Z-00-DX1.3F0E9A15-DBC8-43A0-8C94-20B02757CD10.svs
+Creating patches for:  TCGA-25-2398-01Z-00-DX1.3F0E9A15-DBC8-43A0-8C94-20B02757CD10 ...
+Total number of contours to process:  5
+Bounding Box: 34116 20289 2369 4162
+Contour Area: 6713008.0
+Extracted 9 coordinates
+Bounding Box: 5984 12097 36614 54405
+Contour Area: 894762664.0
+Extracted 887 coordinates
+Bounding Box: 38116 5216 47783 54438
+Contour Area: 1581143119.0
+Extracted 1561 coordinates
+Bounding Box: 39300 3552 11939 15810
+Contour Area: 87299201.0
+Extracted 104 coordinates
+Bounding Box: 24131 2400 9858 26211
+Contour Area: 151293616.0
+Extracted 171 coordinates
+original size: 87691 x 70118
+downscaled size for stiching: 2740 x 2191
+start stitching TCGA-25-2398-01Z-00-DX1.3F0E9A15-DBC8-43A0-8C94-20B02757CD10
+number of patches: 2732
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.5571765899658203 seconds
+patching took 1.0380475521087646 seconds
+stitching took 0.4901540279388428 seconds
+
+
+progress: 0.36, 38/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/54aabde6-c501-43c3-a8b8-40715672c6a0/TCGA-25-1633-01Z-00-DX1.B3F91D16-A9AA-479F-8326-DD3E280C8759.svs
+Creating patches for:  TCGA-25-1633-01Z-00-DX1.B3F91D16-A9AA-479F-8326-DD3E280C8759 ...
+Total number of contours to process:  10
+Bounding Box: 79283 45485 39658 24489
+Contour Area: 697203665.0
+Extracted 701 coordinates
+Bounding Box: 9922 32489 8035 4099
+Contour Area: 11805697.0
+Extracted 18 coordinates
+Bounding Box: 97495 24231 2658 2786
+Contour Area: 4765937.0
+Extracted 8 coordinates
+Bounding Box: 0 23495 43851 49423
+Contour Area: 1053317004.0
+Extracted 1068 coordinates
+Bounding Box: 22149 22566 2594 2690
+Contour Area: 4450145.0
+Extracted 8 coordinates
+Bounding Box: 78771 15428 2465 3778
+Contour Area: 5436128.0
+Extracted 7 coordinates
+Bounding Box: 0 12355 7202 8260
+Contour Area: 30614818.0
+Extracted 39 coordinates
+Bounding Box: 0 11331 3809 3202
+Contour Area: 6619120.0
+Extracted 11 coordinates
+Bounding Box: 99864 4705 22886 23496
+Contour Area: 241958563.0
+Extracted 256 coordinates
+Bounding Box: 24645 3104 22599 23336
+Contour Area: 235457301.0
+segmentation took 5.0697832107543945 seconds
+patching took 2.677215099334717 seconds
+stitching took 4.702322959899902 seconds
+
+
+progress: 0.32, 34/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4c00dfa1-a735-4473-b469-47b3f0825dfb/TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B.svs
+Creating patches for:  TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B ...
+Total number of contours to process:  2
+Bounding Box: 736 9600 56227 62242
+Contour Area: 2208465698.0
+Extracted 245 coordinates
+original size: 127551 x 72950
+downscaled size for stiching: 3985 x 2279
+start stitching TCGA-25-1633-01Z-00-DX1.B3F91D16-A9AA-479F-8326-DD3E280C8759
+number of patches: 2361
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+Extracted 8415 coordinates
+Bounding Box: 49090 2336 55619 65378
+Contour Area: 2328936274.0
+Extracted 8979 coordinates
+original size: 107621 x 74178
+downscaled size for stiching: 3363 x 2318
+start stitching TCGA-25-2400-01Z-00-DX1.AAD20514-6FF7-47A5-89DB-8AA15DCC101B
+number of patches: 17394
+patch size: 512 x 512 patch level: 0
+ref patch size: (512, 512) x (512, 512)
+downscaled patch size: 16x16
+segmentation took 0.5082042217254639 seconds
+patching took 0.5837142467498779 seconds
+stitching took 0.442263126373291 seconds
+
+
+progress: 0.36, 39/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/56349d4b-c2fd-4613-a415-d43295eb8d6b/TCGA-25-2404-01Z-00-DX1.7193B185-31C3-41D0-9194-86DEDF15F096.svs
+Creating patches for:  TCGA-25-2404-01Z-00-DX1.7193B185-31C3-41D0-9194-86DEDF15F096 ...
+Total number of contours to process:  8
+Bounding Box: 31654 85493 10339 5474
+Contour Area: 26892065.0
+Extracted 35 coordinates
+Bounding Box: 5569 46763 14756 13221
+Contour Area: 55189988.0
+Extracted 70 coordinates
+Bounding Box: 31238 45227 12067 14789
+Contour Area: 65247044.0
+Extracted 77 coordinates
+Bounding Box: 46537 31752 6050 8131
+Contour Area: 20365425.0
+Extracted 27 coordinates
+Bounding Box: 26277 24966 5250 5538
+Contour Area: 17040561.0
+Extracted 23 coordinates
+Bounding Box: 54667 23750 9155 3681
+Contour Area: 20157808.0
+Extracted 28 coordinates
+Bounding Box: 29894 13251 20805 11332
+Contour Area: 84464227.5
+Extracted 97 coordinates
+Bounding Box: 58732 11426 49611 56496
+Contour Area: 1644319031.0
+Extracted 1532 coordinates
+original size: 111607 x 90999
+downscaled size for stiching: 3487 x 2843
+start stitching TCGA-25-2404-01Z-00-DX1.7193B185-31C3-41D0-9194-86DEDF15F096
+number of patches: 1889
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.4055016040802002 seconds
+patching took 1.0581061840057373 seconds
+stitching took 1.1159343719482422 seconds
+
+
+progress: 0.17, 18/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/26a2ec96-cdf1-419e-b0b3-55d2a2db0fd2/TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E.svs
+Creating patches for:  TCGA-23-1114-01Z-00-DX1.26CCA42E-4947-4318-A983-D3B31603482E ...
+Total number of contours to process:  3
+Bounding Box: 28321 35891 4545 2353
+Contour Area: 4338176.0
+segmentation took 0.6644749641418457 seconds
+patching took 0.4528627395629883 seconds
+stitching took 0.35359954833984375 seconds
+
+
+progress: 0.37, 40/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/576a2e26-1f7f-48eb-9779-1ae4b664e2bd/TCGA-25-2392-01Z-00-DX1.C37932E5-973F-444D-8CEB-1BED4279165E.svs
+Creating patches for:  TCGA-25-2392-01Z-00-DX1.C37932E5-973F-444D-8CEB-1BED4279165E ...
+Total number of contours to process:  5
+Bounding Box: 40161 35822 12609 15175
+Contour Area: 104912240.0
+Extracted 116 coordinates
+Bounding Box: 46465 26570 14594 18569
+Contour Area: 146934928.0
+Extracted 164 coordinates
+Bounding Box: 3328 25930 3489 4579
+Contour Area: 7781216.0
+Extracted 78 coordinates
+Bounding Box: 0 112 145399 94409
+Contour Area: 6990163183.0
+Extracted 11 coordinates
+Bounding Box: 3520 16934 39426 34607
+Contour Area: 716677595.0
+Extracted 772 coordinates
+Bounding Box: 59745 4225 54115 54583
+Contour Area: 1967963125.0
+Extracted 1937 coordinates
+original size: 121572 x 62521
+downscaled size for stiching: 3799 x 1953
+start stitching TCGA-25-2392-01Z-00-DX1.C37932E5-973F-444D-8CEB-1BED4279165E
+number of patches: 3000
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.45157861709594727 seconds
+patching took 0.44559693336486816 seconds
+stitching took 0.5063197612762451 seconds
+
+
+progress: 0.38, 41/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/57cfa400-6bbd-440a-9fdc-e860de1848c0/TCGA-57-1583-01Z-00-DX1.88ACB045-1DBD-4F0B-A6D0-53B6C208805C.svs
+Creating patches for:  TCGA-57-1583-01Z-00-DX1.88ACB045-1DBD-4F0B-A6D0-53B6C208805C ...
+Total number of contours to process:  1
+Bounding Box: 8546 1184 41454 54255
+Contour Area: 1461641496.0
+Extracted 1456 coordinates
+original size: 57554 x 64785
+downscaled size for stiching: 1798 x 2024
+start stitching TCGA-57-1583-01Z-00-DX1.88ACB045-1DBD-4F0B-A6D0-53B6C208805C
+number of patches: 1456
+patch size: 1024 x 1024 patch level: 0
+ref patch size: (1024, 1024) x (1024, 1024)
+downscaled patch size: 32x32
+segmentation took 0.5350220203399658 seconds
+patching took 1.155827522277832 seconds
+stitching took 1.775904655456543 seconds
+
+
+progress: 0.33, 35/107
+processing /home/shared/su123/TCGA_ORI/TCGA-OV/4dab86c6-7921-4577-8e1b-d5e2577452fa/TCGA-25-1632-01Z-00-DX1.B911E6FF-D6A9-4AC7-873C-58B2059DE7E6.svs
+Creating patches for:  TCGA-25-1632-01Z-00-DX1.B911E6FF-D6A9-4AC7-873C-58B2059DE7E6 ...
+Total number of contours to process:  14
+Bounding Box: 0 63129 4769 4913
+Contour Area: 7966464.0
+Extracted 43 coordinates
+Bounding Box: 0 50023 4129 3249
+Contour Area: 5613312.0
+Extracted 33 coordinates
+Bounding Box: 2832 22659 56725 42599
+Contour Area: 1615765851.0
+Extracted 5982 coordinates
+Bounding Box: 89399 20130 56166 44024
+Contour Area: 1606975667.0
+Extracted 5964 coordinates
+Bounding Box: 6128 17298 15634 8514
+Contour Area: 58629288.0
+Extracted 264 coordinates
+Bounding Box: 90375 17266 16002 8066
+Contour Area: 60545536.0
+Extracted 270 coordinates
+Bounding Box: 29378 14210 3057 3905
+Contour Area: 7160576.0
+Extracted 36 coordinates
+Bounding Box: 54004 13329 4081 3250
+Contour Area: 7679576.0
+Extracted 40 coordinates
+Bounding Box: 113241 12593 2897 4114
+Contour Area: 7341280.0
+Extracted 37 coordinates
+Bounding Box: 14401 10897 18466 5874
+Contour Area: 41797209.0
+Extracted 191 coordinates
+Bounding Box: 35955 9713 3521 5538
+Contour Area: 9988416.0
+Extracted 54 coordinates
+Bounding Box: 98216 9425 18146 7106
+Contour Area: 42389616.0

@@ -10,6 +10,7 @@ import argparse
 import pdb
 import pandas as pd
 from tqdm import tqdm
+from glob import glob
 
 def stitching(file_path, wsi_object, downscale = 64):
 	start = time.time()
@@ -60,8 +61,12 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 	
 
 
-	slides = sorted(os.listdir(source))
-	slides = [slide for slide in slides if os.path.isfile(os.path.join(source, slide))]
+	# slides = sorted(os.listdir(source))
+	# slides = [slide for slide in slides if os.path.isfile(os.path.join(source, slide))]
+	slides = sorted(glob(os.path.join(source, '*/*.svs')))
+	if not slides:
+		slides = sorted(glob(os.path.join(source, 'c16/*.tif')))
+
 	if process_list is None:
 		df = initialize_df(slides, seg_params, filter_params, vis_params, patch_params)
 	
@@ -95,7 +100,8 @@ def seg_and_patch(source, save_dir, patch_save_dir, mask_save_dir, stitch_save_d
 		print('processing {}'.format(slide))
 		
 		df.loc[idx, 'process'] = 0
-		slide_id, _ = os.path.splitext(slide)
+		# slide_id, _ = os.path.splitext(slide)
+		slide_id, _ = os.path.splitext(os.path.basename(slide))
 
 		if auto_skip and os.path.isfile(os.path.join(patch_save_dir, slide_id + '.h5')):
 			print('{} already exist in destination location, skipped'.format(slide_id))

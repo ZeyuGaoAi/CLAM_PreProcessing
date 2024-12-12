@@ -1,0 +1,1278 @@
+initializing dataset
+loading model checkpoint
+TimmCNNEncoder(
+  (model): FeatureListNet(
+    (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (act1): ReLU(inplace=True)
+    (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (layer1): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+    (layer2): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (3): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+    (layer3): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (3): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (4): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (5): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+  )
+  (pool): AdaptiveAvgPool2d(output_size=1)
+)
+
+progress: 0/154
+16B0024174
+skipped 16B0024174
+
+progress: 1/154
+18B0005478E
+skipped 18B0005478E
+
+progress: 2/154
+18B0002933H
+skipped 18B0002933H
+
+progress: 3/154
+18B0005478H
+skipped 18B0005478H
+
+progress: 4/154
+18B0005478D
+skipped 18B0005478D
+
+progress: 5/154
+17B0031904
+skipped 17B0031904
+
+progress: 6/154
+17B0034179
+skipped 17B0034179
+
+progress: 7/154
+18B0003901F
+skipped 18B0003901F
+
+progress: 8/154
+18B0003808K
+skipped 18B0003808K
+
+progress: 9/154
+17B0031061
+skipped 17B0031061
+
+progress: 10/154
+16B0003388
+skipped 16B0003388
+
+progress: 11/154
+18B0004358D
+skipped 18B0004358D
+
+progress: 12/154
+17B0031124
+skipped 17B0031124
+
+progress: 13/154
+18B0002452G
+skipped 18B0002452G
+
+progress: 14/154
+18B0006623B
+skipped 18B0006623B
+
+progress: 15/154
+17B0031108
+skipped 17B0031108
+
+progress: 16/154
+16B0024177
+skipped 16B0024177
+
+progress: 17/154
+18B0006179I
+skipped 18B0006179I
+
+progress: 18/154
+18B0006623F
+skipped 18B0006623F
+
+progress: 19/154
+16B0022613
+skipped 16B0022613
+
+progress: 20/154
+16B0028813
+skipped 16B0028813
+
+progress: 21/154
+18B0006623J
+skipped 18B0006623J
+
+progress: 22/154
+18B0006623D
+skipped 18B0006623D
+
+progress: 23/154
+18B0005478J
+skipped 18B0005478J
+
+progress: 24/154
+17B0035220
+skipped 17B0035220
+
+progress: 25/154
+17B0017506
+skipped 17B0017506
+
+progress: 26/154
+18B0005125B
+skipped 18B0005125B
+
+progress: 27/154
+18B0006622E
+skipped 18B0006622E
+
+progress: 28/154
+17B0017454
+skipped 17B0017454
+
+progress: 29/154
+17B0028627
+skipped 17B0028627
+
+progress: 30/154
+17B0011996
+skipped 17B0011996
+
+progress: 31/154
+18B0005478B
+skipped 18B0005478B
+
+progress: 32/154
+18B0005126C
+skipped 18B0005126C
+
+progress: 33/154
+17B0021010
+skipped 17B0021010
+
+progress: 34/154
+18B0004349A
+skipped 18B0004349A
+
+progress: 35/154
+18B0005478G
+skipped 18B0005478G
+
+progress: 36/154
+16B0028168
+skipped 16B0028168
+
+progress: 37/154
+16B0006694
+skipped 16B0006694
+
+progress: 38/154
+17B00208864
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B00208864_0_1024.npy took 277.48896384239197 s
+features size:  (162, 1024)
+coordinates size:  162
+
+progress: 39/154
+16B0022612
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022612_0_1024.npy took 87.21910095214844 s
+features size:  (182, 1024)
+coordinates size:  182
+
+progress: 40/154
+16B0006695
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0006695_0_1024.npy took 92.27825570106506 s
+features size:  (165, 1024)
+coordinates size:  165
+
+progress: 41/154
+18B0006623I
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006623I_0_1024.npy took 33.14003276824951 s
+features size:  (52, 1024)
+coordinates size:  52
+
+progress: 42/154
+16B0028814
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028814_0_1024.npy took 88.1391282081604 s
+features size:  (118, 1024)
+coordinates size:  118
+
+progress: 43/154
+17B0031109
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031109_0_1024.npy took 51.55866837501526 s
+features size:  (84, 1024)
+coordinates size:  84
+
+progress: 44/154
+16B0006668
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0006668_0_1024.npy took 93.51849865913391 s
+features size:  (122, 1024)
+coordinates size:  122
+
+progress: 45/154
+16B0028161
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028161_0_1024.npy took 25.25075054168701 s
+features size:  (31, 1024)
+coordinates size:  31
+
+progress: 46/154
+16B0001851
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0001851_0_1024.npy took 53.49191689491272 s
+features size:  (55, 1024)
+coordinates size:  55
+
+progress: 47/154
+17B0023487
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0023487_0_1024.npy took 61.3521249294281 s
+features size:  (103, 1024)
+coordinates size:  103
+
+progress: 48/154
+18B0006623G
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006623G_0_1024.npy took 29.92047619819641 s
+features size:  (40, 1024)
+coordinates size:  40
+
+progress: 49/154
+18B0005478C
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005478C_0_1024.npy took 101.77711296081543 s
+features size:  (165, 1024)
+coordinates size:  165
+
+progress: 50/154
+16B0022608
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022608_0_1024.npy took 59.09036159515381 s
+features size:  (89, 1024)
+coordinates size:  89
+
+progress: 51/154
+18B0006174B
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006174B_0_1024.npy took 33.89045238494873 s
+features size:  (53, 1024)
+coordinates size:  53
+
+progress: 52/154
+16B0028816
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028816_0_1024.npy took 69.32218194007874 s
+features size:  (110, 1024)
+coordinates size:  110
+
+progress: 53/154
+17B0034449
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0034449_0_1024.npy took 74.750901222229 s
+features size:  (162, 1024)
+coordinates size:  162
+
+progress: 54/154
+18B0006177A
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006177A_0_1024.npy took 66.23687314987183 s
+features size:  (113, 1024)
+coordinates size:  113
+
+progress: 55/154
+18B0004349G
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0004349G_0_1024.npy took 84.84767079353333 s
+features size:  (210, 1024)
+coordinates size:  210
+
+progress: 56/154
+16B0006669
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0006669_0_1024.npy took 43.05883812904358 s
+features size:  (60, 1024)
+coordinates size:  60
+
+progress: 57/154
+18B0003894J
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0003894J_0_1024.npy took 66.20704984664917 s
+features size:  (106, 1024)
+coordinates size:  106
+
+progress: 58/154
+17B0015969
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0015969_0_1024.npy took 84.34888696670532 s
+features size:  (183, 1024)
+coordinates size:  183
+
+progress: 59/154
+18B0003032A
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0003032A_0_1024.npy took 86.52219891548157 s
+features size:  (171, 1024)
+coordinates size:  171
+
+progress: 60/154
+17B0023909
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0023909_0_1024.npy took 75.87450838088989 s
+features size:  (130, 1024)
+coordinates size:  130
+
+progress: 61/154
+16B0022781
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022781_0_1024.npy took 86.29654431343079 s
+features size:  (135, 1024)
+coordinates size:  135
+
+progress: 62/154
+17B0017511
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0017511_0_1024.npy took 59.67998123168945 s
+features size:  (88, 1024)
+coordinates size:  88
+
+progress: 63/154
+16B0024181
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0024181_0_1024.npy took 82.60375571250916 s
+features size:  (112, 1024)
+coordinates size:  112
+
+progress: 64/154
+17B0024636
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0024636_0_1024.npy took 104.83868145942688 s
+features size:  (163, 1024)
+coordinates size:  163
+
+progress: 65/154
+17B0027646
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0027646_0_1024.npy took 87.71624112129211 s
+features size:  (167, 1024)
+coordinates size:  167
+
+progress: 66/154
+18B0006173F
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006173F_0_1024.npy took 34.925238370895386 s
+features size:  (54, 1024)
+coordinates size:  54
+
+progress: 67/154
+17B0031103
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031103_0_1024.npy took 44.317859411239624 s
+features size:  (77, 1024)
+coordinates size:  77
+
+progress: 68/154
+16B0022786
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022786_0_1024.npy took 84.21706533432007 s
+features size:  (260, 1024)
+coordinates size:  260
+
+progress: 69/154
+18B0005477G
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005477G_0_1024.npy took 63.100045919418335 s
+features size:  (92, 1024)
+coordinates size:  92
+
+progress: 70/154
+18B0006621D
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006621D_0_1024.npy took 94.7283582687378 s
+features size:  (182, 1024)
+coordinates size:  182
+
+progress: 71/154
+17B0034247
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0034247_0_1024.npy took 72.86085414886475 s
+features size:  (114, 1024)
+coordinates size:  114
+
+progress: 72/154
+18B0004346A
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0004346A_0_1024.npy took 61.23881554603577 s
+features size:  (138, 1024)
+coordinates size:  138
+
+progress: 73/154
+16B0028822
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028822_0_1024.npy took 75.91388726234436 s
+features size:  (110, 1024)
+coordinates size:  110
+
+progress: 74/154
+16B0022616
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022616_0_1024.npy took 46.083839893341064 s
+features size:  (69, 1024)
+coordinates size:  69
+
+progress: 75/154
+16B0008045
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0008045_0_1024.npy took 40.63448357582092 s
+features size:  (55, 1024)
+coordinates size:  55
+
+progress: 76/154
+18B0001506G
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001506G_0_1024.npy took 77.08287715911865 s
+features size:  (159, 1024)
+coordinates size:  159
+
+progress: 77/154
+18B0001971B
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001971B_0_1024.npy took 22.044464349746704 s
+features size:  (34, 1024)
+coordinates size:  34
+
+progress: 78/154
+17B0034674
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0034674_0_1024.npy took 75.45232796669006 s
+features size:  (128, 1024)
+coordinates size:  128
+
+progress: 79/154
+17B0029587
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0029587_0_1024.npy took 42.31614708900452 s
+features size:  (70, 1024)
+coordinates size:  70
+
+progress: 80/154
+17B0016566
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0016566_0_1024.npy took 82.54203295707703 s
+features size:  (183, 1024)
+coordinates size:  183
+
+progress: 81/154
+16B0028815
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028815_0_1024.npy took 75.99376893043518 s
+features size:  (135, 1024)
+coordinates size:  135
+
+progress: 82/154
+16B0022615
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022615_0_1024.npy took 91.50053405761719 s
+features size:  (121, 1024)
+coordinates size:  121
+
+progress: 83/154
+18B000646G
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B000646G_0_1024.npy took 15.683443069458008 s
+features size:  (17, 1024)
+coordinates size:  17
+
+progress: 84/154
+18B0001159D
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001159D_0_1024.npy took 102.8489441871643 s
+features size:  (146, 1024)
+coordinates size:  146
+
+progress: 85/154
+16B0028817
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028817_0_1024.npy took 68.35882639884949 s
+features size:  (99, 1024)
+coordinates size:  99
+
+progress: 86/154
+18B0006169B
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006169B_0_1024.npy took 25.330525875091553 s
+features size:  (39, 1024)
+coordinates size:  39
+
+progress: 87/154
+16B0022610
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0022610_0_1024.npy took 51.32037925720215 s
+features size:  (86, 1024)
+coordinates size:  86
+
+progress: 88/154
+18B0001966H
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001966H_0_1024.npy took 69.91023015975952 s
+features size:  (186, 1024)
+coordinates size:  186
+
+progress: 89/154
+16B0003394
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0003394_0_1024.npy took 75.38956832885742 s
+features size:  (96, 1024)
+coordinates size:  96
+
+progress: 90/154
+17B0031879
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031879_0_1024.npy took 62.5340940952301 s
+features size:  (92, 1024)
+coordinates size:  92
+
+progress: 91/154
+18B0002975B
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0002975B_0_1024.npy took 91.32166481018066 s
+features size:  (145, 1024)
+coordinates size:  145
+
+progress: 92/154
+17B0015554
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0015554_0_1024.npy took 43.786232471466064 s
+features size:  (53, 1024)
+coordinates size:  53
+
+progress: 93/154
+18B0002933I
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0002933I_0_1024.npy took 98.59710478782654 s
+features size:  (152, 1024)
+coordinates size:  152
+
+progress: 94/154
+16B0024173
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0024173_0_1024.npy took 51.70638298988342 s
+features size:  (93, 1024)
+coordinates size:  93
+
+progress: 95/154
+18B0005478I
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005478I_0_1024.npy took 66.92977905273438 s
+features size:  (194, 1024)
+coordinates size:  194
+
+progress: 96/154
+18B0005478A
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005478A_0_1024.npy took 78.77590298652649 s
+features size:  (127, 1024)
+coordinates size:  127
+
+progress: 97/154
+17B0019359
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0019359_0_1024.npy took 39.59199118614197 s
+features size:  (73, 1024)
+coordinates size:  73
+
+progress: 98/154
+18B0005230E
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005230E_0_1024.npy took 64.70575428009033 s
+features size:  (111, 1024)
+coordinates size:  111
+
+progress: 99/154
+18B0002932D
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0002932D_0_1024.npy took 76.17223834991455 s
+features size:  (138, 1024)
+coordinates size:  138
+
+progress: 100/154
+16B0028914
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028914_0_1024.npy took 91.755859375 s
+features size:  (325, 1024)
+coordinates size:  325
+
+progress: 101/154
+17B0015685
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0015685_0_1024.npy took 18.85460662841797 s
+features size:  (41, 1024)
+coordinates size:  41
+
+progress: 102/154
+17B0015777
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0015777_0_1024.npy took 55.647281646728516 s
+features size:  (96, 1024)
+coordinates size:  96
+
+progress: 103/154
+16B0027039
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0027039_0_1024.npy took 56.92403960227966 s
+features size:  (109, 1024)
+coordinates size:  109
+
+progress: 104/154
+18B0003896D
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0003896D_0_1024.npy took 43.71784234046936 s
+features size:  (86, 1024)
+coordinates size:  86
+
+progress: 105/154
+16B0028138
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028138_0_1024.npy took 51.6563036441803 s
+features size:  (103, 1024)
+coordinates size:  103
+
+progress: 106/154
+17B0034675
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0034675_0_1024.npy took 32.88668513298035 s
+features size:  (61, 1024)
+coordinates size:  61
+
+progress: 107/154
+16B0024175
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0024175_0_1024.npy took 68.74464631080627 s
+features size:  (187, 1024)
+coordinates size:  187
+
+progress: 108/154
+18B0006623C
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006623C_0_1024.npy took 32.48918604850769 s
+features size:  (63, 1024)
+coordinates size:  63
+
+progress: 109/154
+16B0027038
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0027038_0_1024.npy took 72.49098134040833 s
+features size:  (129, 1024)
+coordinates size:  129
+
+progress: 110/154
+17B0031911
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031911_0_1024.npy took 51.83732867240906 s
+features size:  (95, 1024)
+coordinates size:  95
+
+progress: 111/154
+17B0031053
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031053_0_1024.npy took 22.77776551246643 s
+features size:  (56, 1024)
+coordinates size:  56
+
+progress: 112/154
+18B0005124A
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005124A_0_1024.npy took 30.000580072402954 s
+features size:  (76, 1024)
+coordinates size:  76
+
+progress: 113/154
+16B0026794
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0026794_0_1024.npy took 62.085346937179565 s
+features size:  (179, 1024)
+coordinates size:  179
+
+progress: 114/154
+18B0005718B
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005718B_0_1024.npy took 69.40188479423523 s
+features size:  (110, 1024)
+coordinates size:  110
+
+progress: 115/154
+17B0031932
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031932_0_1024.npy took 8.642853260040283 s
+features size:  (22, 1024)
+coordinates size:  22
+
+progress: 116/154
+17B00208861
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B00208861_0_1024.npy took 47.33764052391052 s
+features size:  (74, 1024)
+coordinates size:  74
+
+progress: 117/154
+17B0034184
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0034184_0_1024.npy took 18.58993625640869 s
+features size:  (40, 1024)
+coordinates size:  40
+
+progress: 118/154
+17B0022792
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0022792_0_1024.npy took 69.53161525726318 s
+features size:  (110, 1024)
+coordinates size:  110
+
+progress: 119/154
+17B0031890
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031890_0_1024.npy took 65.91012907028198 s
+features size:  (113, 1024)
+coordinates size:  113
+
+progress: 120/154
+17B0031893
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031893_0_1024.npy took 89.43110966682434 s
+features size:  (132, 1024)
+coordinates size:  132
+
+progress: 121/154
+17B0018428
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0018428_0_1024.npy took 84.57404613494873 s
+features size:  (187, 1024)
+coordinates size:  187
+
+progress: 122/154
+18B0001510G
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001510G_0_1024.npy took 84.20625114440918 s
+features size:  (138, 1024)
+coordinates size:  138
+
+progress: 123/154
+17B0029534
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0029534_0_1024.npy took 81.59815692901611 s
+features size:  (169, 1024)
+coordinates size:  169
+
+progress: 124/154
+17B0016589
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0016589_0_1024.npy took 75.26594424247742 s
+features size:  (142, 1024)
+coordinates size:  142
+
+progress: 125/154
+18B0006623H
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006623H_0_1024.npy took 28.85105538368225 s
+features size:  (46, 1024)
+coordinates size:  46
+
+progress: 126/154
+17B0027608
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0027608_0_1024.npy took 78.89863228797913 s
+features size:  (172, 1024)
+coordinates size:  172
+
+progress: 127/154
+18B0006170D
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006170D_0_1024.npy took 72.1163055896759 s
+features size:  (172, 1024)
+coordinates size:  172
+
+progress: 128/154
+18B0005773
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005773_0_1024.npy took 83.76497006416321 s
+features size:  (132, 1024)
+coordinates size:  132
+
+progress: 129/154
+18B001071J
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B001071J_0_1024.npy took 45.68448257446289 s
+features size:  (70, 1024)
+coordinates size:  70
+
+progress: 130/154
+17B0016579
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0016579_0_1024.npy took 79.31001710891724 s
+features size:  (138, 1024)
+coordinates size:  138
+
+progress: 131/154
+16B0026795
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0026795_0_1024.npy took 80.52031183242798 s
+features size:  (166, 1024)
+coordinates size:  166
+
+progress: 132/154
+17B00116581
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B00116581_0_1024.npy took 79.81074333190918 s
+features size:  (124, 1024)
+coordinates size:  124
+
+progress: 133/154
+17B0024162
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0024162_0_1024.npy took 59.82595753669739 s
+features size:  (88, 1024)
+coordinates size:  88
+
+progress: 134/154
+18B0001510J
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001510J_0_1024.npy took 70.82984161376953 s
+features size:  (177, 1024)
+coordinates size:  177
+
+progress: 135/154
+18B0002930B
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0002930B_0_1024.npy took 95.09553623199463 s
+features size:  (129, 1024)
+coordinates size:  129
+
+progress: 136/154
+17B0031877
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031877_0_1024.npy took 64.22343969345093 s
+features size:  (82, 1024)
+coordinates size:  82
+
+progress: 137/154
+16B0026796
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0026796_0_1024.npy took 76.94234371185303 s
+features size:  (156, 1024)
+coordinates size:  156
+
+progress: 138/154
+18B0003894H
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0003894H_0_1024.npy took 87.3911497592926 s
+features size:  (164, 1024)
+coordinates size:  164
+
+progress: 139/154
+16B0008067
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0008067_0_1024.npy took 87.5774552822113 s
+features size:  (143, 1024)
+coordinates size:  143
+
+progress: 140/154
+16B0023613
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0023613_0_1024.npy took 71.44302940368652 s
+features size:  (153, 1024)
+coordinates size:  153
+
+progress: 141/154
+18B0005478F
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0005478F_0_1024.npy took 71.6892957687378 s
+features size:  (169, 1024)
+coordinates size:  169
+
+progress: 142/154
+16B0026792
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0026792_0_1024.npy took 86.18514132499695 s
+features size:  (280, 1024)
+coordinates size:  280
+
+progress: 143/154
+17B0017717
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0017717_0_1024.npy took 75.23014163970947 s
+features size:  (116, 1024)
+coordinates size:  116
+
+progress: 144/154
+16B0023614
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0023614_0_1024.npy took 83.2192451953888 s
+features size:  (180, 1024)
+coordinates size:  180
+
+progress: 145/154
+18B0001071H
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0001071H_0_1024.npy took 45.14993619918823 s
+features size:  (89, 1024)
+coordinates size:  89
+
+progress: 146/154
+17B0023980
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0023980_0_1024.npy took 21.188704013824463 s
+features size:  (37, 1024)
+coordinates size:  37
+
+progress: 147/154
+18B0006623A
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B0006623A_0_1024.npy took 60.96515369415283 s
+features size:  (89, 1024)
+coordinates size:  89
+
+progress: 148/154
+17B0032153
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0032153_0_1024.npy took 65.37204575538635 s
+features size:  (138, 1024)
+coordinates size:  138
+
+progress: 149/154
+17B0031079
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0031079_0_1024.npy took 81.74239873886108 s
+features size:  (132, 1024)
+coordinates size:  132
+
+progress: 150/154
+18B000646H
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/18B000646H_0_1024.npy took 7.543590784072876 s
+features size:  (15, 1024)
+coordinates size:  15
+
+progress: 151/154
+17B0016583
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/17B0016583_0_1024.npy took 86.8411214351654 s
+features size:  (126, 1024)
+coordinates size:  126
+
+progress: 152/154
+16B0027040
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0027040_0_1024.npy took 88.2688193321228 s
+features size:  (347, 1024)
+coordinates size:  347
+
+progress: 153/154
+16B0028148
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData/SICAPv2/clam_gen/resnet50/16B0028148_0_1024.npy took 70.76967287063599 s
+features size:  (114, 1024)
+coordinates size:  114

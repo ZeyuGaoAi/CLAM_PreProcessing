@@ -1,0 +1,1238 @@
+initializing dataset
+loading model checkpoint
+TimmCNNEncoder(
+  (model): FeatureListNet(
+    (conv1): Conv2d(3, 64, kernel_size=(7, 7), stride=(2, 2), padding=(3, 3), bias=False)
+    (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+    (act1): ReLU(inplace=True)
+    (maxpool): MaxPool2d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (layer1): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(64, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(256, 64, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(64, 64, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(64, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+    (layer2): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(256, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(256, 512, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (3): Bottleneck(
+        (conv1): Conv2d(512, 128, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(128, 128, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(128, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+    (layer3): Sequential(
+      (0): Bottleneck(
+        (conv1): Conv2d(512, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(2, 2), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+        (downsample): Sequential(
+          (0): Conv2d(512, 1024, kernel_size=(1, 1), stride=(2, 2), bias=False)
+          (1): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        )
+      )
+      (1): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (2): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (3): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (4): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+      (5): Bottleneck(
+        (conv1): Conv2d(1024, 256, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn1): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act1): ReLU(inplace=True)
+        (conv2): Conv2d(256, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn2): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (drop_block): Identity()
+        (act2): ReLU(inplace=True)
+        (aa): Identity()
+        (conv3): Conv2d(256, 1024, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn3): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (act3): ReLU(inplace=True)
+      )
+    )
+  )
+  (pool): AdaptiveAvgPool2d(output_size=1)
+)
+
+progress: 0/130
+TCGA-FP-7998-01Z-00-DX1.9f24585a-d609-4094-8170-b0f483606a18
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-7998-01Z-00-DX1.9f24585a-d609-4094-8170-b0f483606a18_1_512.npy took 241.20275688171387 s
+features size:  (100, 1024)
+coordinates size:  100
+
+progress: 1/130
+TCGA-VQ-A8PH-01Z-00-DX1.79A66B42-B6CF-49F9-9204-DC21A57DAFF6
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PH-01Z-00-DX1.79A66B42-B6CF-49F9-9204-DC21A57DAFF6_1_512.npy took 150.35594844818115 s
+features size:  (1174, 1024)
+coordinates size:  1174
+
+progress: 2/130
+TCGA-BR-8382-01Z-00-DX1.b74fc4a1-4dfc-47dc-8ee1-2fa44ad17a69
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8382-01Z-00-DX1.b74fc4a1-4dfc-47dc-8ee1-2fa44ad17a69_1_512.npy took 86.65500569343567 s
+features size:  (821, 1024)
+coordinates size:  821
+
+progress: 3/130
+TCGA-D7-6817-01Z-00-DX1.c1c7e7bb-2811-4034-8da8-af527377a711
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6817-01Z-00-DX1.c1c7e7bb-2811-4034-8da8-af527377a711_1_512.npy took 65.47569918632507 s
+features size:  (196, 1024)
+coordinates size:  196
+
+progress: 4/130
+TCGA-VQ-A8PT-01Z-00-DX1.7A0E6C8F-E0D2-49AC-9C03-3C9B34EB0AE8
+processing a total of 12 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PT-01Z-00-DX1.7A0E6C8F-E0D2-49AC-9C03-3C9B34EB0AE8_1_512.npy took 162.52360153198242 s
+features size:  (1502, 1024)
+coordinates size:  1502
+
+progress: 5/130
+TCGA-D7-6519-01Z-00-DX1.5f7dcb29-030f-4011-affe-47dab4b9da03
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6519-01Z-00-DX1.5f7dcb29-030f-4011-affe-47dab4b9da03_1_512.npy took 88.03126811981201 s
+features size:  (1021, 1024)
+coordinates size:  1021
+
+progress: 6/130
+TCGA-VQ-A8PJ-01Z-00-DX1.19F00379-C001-49D2-9B22-6AE0791C8488
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PJ-01Z-00-DX1.19F00379-C001-49D2-9B22-6AE0791C8488_1_512.npy took 96.46786499023438 s
+features size:  (478, 1024)
+coordinates size:  478
+
+progress: 7/130
+TCGA-CD-5803-01Z-00-DX1.8d786276-18f5-4017-ba30-79e46b2da513
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-5803-01Z-00-DX1.8d786276-18f5-4017-ba30-79e46b2da513_1_512.npy took 79.9513635635376 s
+features size:  (582, 1024)
+coordinates size:  582
+
+progress: 8/130
+TCGA-D7-6522-01Z-00-DX2.0CEA0837-BBD6-4C5F-87D6-DA93E1DEDDC3
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6522-01Z-00-DX2.0CEA0837-BBD6-4C5F-87D6-DA93E1DEDDC3_1_512.npy took 102.41081523895264 s
+features size:  (621, 1024)
+coordinates size:  621
+
+progress: 9/130
+TCGA-VQ-A923-01Z-00-DX1.86FE7ABA-9C93-4637-A71F-F3EBA2BB4BDF
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A923-01Z-00-DX1.86FE7ABA-9C93-4637-A71F-F3EBA2BB4BDF_1_512.npy took 114.20031666755676 s
+features size:  (918, 1024)
+coordinates size:  918
+
+progress: 10/130
+TCGA-VQ-AA6B-01Z-00-DX1.C6CB7290-4A83-4963-8840-68BC208D1232
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA6B-01Z-00-DX1.C6CB7290-4A83-4963-8840-68BC208D1232_1_512.npy took 100.66679191589355 s
+features size:  (877, 1024)
+coordinates size:  877
+
+progress: 11/130
+TCGA-MX-A663-01Z-00-DX1.EBDF2119-63E3-4DA5-B661-440A461904BE
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-MX-A663-01Z-00-DX1.EBDF2119-63E3-4DA5-B661-440A461904BE_1_512.npy took 21.621114015579224 s
+features size:  (41, 1024)
+coordinates size:  41
+
+progress: 12/130
+TCGA-VQ-A91N-01Z-00-DX1.4F7CF3DD-8AAA-43DE-98C1-E44B2B5FB019
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91N-01Z-00-DX1.4F7CF3DD-8AAA-43DE-98C1-E44B2B5FB019_1_512.npy took 98.87377381324768 s
+features size:  (1047, 1024)
+coordinates size:  1047
+
+progress: 13/130
+TCGA-FP-8210-01Z-00-DX1.0ef0fd3f-5968-48ce-9e69-eaae83c29004
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-8210-01Z-00-DX1.0ef0fd3f-5968-48ce-9e69-eaae83c29004_1_512.npy took 76.23925733566284 s
+features size:  (162, 1024)
+coordinates size:  162
+
+progress: 14/130
+TCGA-BR-6801-01Z-00-DX1.7d2aaa44-16f0-4526-87f2-6e95cdb5df3b
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6801-01Z-00-DX1.7d2aaa44-16f0-4526-87f2-6e95cdb5df3b_1_512.npy took 88.89815139770508 s
+features size:  (412, 1024)
+coordinates size:  412
+
+progress: 15/130
+TCGA-VQ-A8DU-01Z-00-DX1.12DD8768-1315-472E-801D-F44A418BEA41
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8DU-01Z-00-DX1.12DD8768-1315-472E-801D-F44A418BEA41_1_512.npy took 86.32226729393005 s
+features size:  (686, 1024)
+coordinates size:  686
+
+progress: 16/130
+TCGA-VQ-A8PC-01Z-00-DX1.03BD1821-DB4A-4FAB-AA6A-A8C91E6215F4
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PC-01Z-00-DX1.03BD1821-DB4A-4FAB-AA6A-A8C91E6215F4_1_512.npy took 91.27255129814148 s
+features size:  (856, 1024)
+coordinates size:  856
+
+progress: 17/130
+TCGA-D7-8570-01Z-00-DX1.0B435CEF-B653-4D10-B2BD-6F9576C94389
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-8570-01Z-00-DX1.0B435CEF-B653-4D10-B2BD-6F9576C94389_1_512.npy took 83.42157888412476 s
+features size:  (333, 1024)
+coordinates size:  333
+
+progress: 18/130
+TCGA-HJ-7597-01Z-00-DX1.4218e9a0-3ef1-4073-8336-1fe81c0bce90
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-HJ-7597-01Z-00-DX1.4218e9a0-3ef1-4073-8336-1fe81c0bce90_1_512.npy took 162.4552686214447 s
+features size:  (1198, 1024)
+coordinates size:  1198
+
+progress: 19/130
+TCGA-D7-5577-01Z-00-DX1.e9ca39a5-7c5c-4e43-ac89-8652f44b08bb
+processing a total of 13 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-5577-01Z-00-DX1.e9ca39a5-7c5c-4e43-ac89-8652f44b08bb_1_512.npy took 187.51057744026184 s
+features size:  (1612, 1024)
+coordinates size:  1612
+
+progress: 20/130
+TCGA-CD-8526-01Z-00-DX1.499C498B-2D4E-4285-AD07-162788E87579
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8526-01Z-00-DX1.499C498B-2D4E-4285-AD07-162788E87579_1_512.npy took 99.48031187057495 s
+features size:  (527, 1024)
+coordinates size:  527
+
+progress: 21/130
+TCGA-BR-8364-01Z-00-DX1.245676db-6d78-4ae4-ae36-b4a70781a2f8
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8364-01Z-00-DX1.245676db-6d78-4ae4-ae36-b4a70781a2f8_1_512.npy took 93.85380268096924 s
+features size:  (881, 1024)
+coordinates size:  881
+
+progress: 22/130
+TCGA-BR-6706-01Z-00-DX1.8627a957-8d44-47ec-9156-53ccc37b9add
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6706-01Z-00-DX1.8627a957-8d44-47ec-9156-53ccc37b9add_1_512.npy took 93.67505979537964 s
+features size:  (413, 1024)
+coordinates size:  413
+
+progress: 23/130
+TCGA-BR-6455-01Z-00-DX1.402682fe-98b4-4381-85da-98510db17af9
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6455-01Z-00-DX1.402682fe-98b4-4381-85da-98510db17af9_1_512.npy took 95.01226091384888 s
+features size:  (796, 1024)
+coordinates size:  796
+
+progress: 24/130
+TCGA-VQ-A8E3-01Z-00-DX1.2CEA9979-EC34-48E2-A092-55757506490A
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8E3-01Z-00-DX1.2CEA9979-EC34-48E2-A092-55757506490A_1_512.npy took 104.23761749267578 s
+features size:  (579, 1024)
+coordinates size:  579
+
+progress: 25/130
+TCGA-D7-8574-01Z-00-DX1.72155AB8-7B77-46D1-85B0-EACABCD25EF2
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-8574-01Z-00-DX1.72155AB8-7B77-46D1-85B0-EACABCD25EF2_1_512.npy took 99.51165294647217 s
+features size:  (918, 1024)
+coordinates size:  918
+
+progress: 26/130
+TCGA-VQ-A8DZ-01Z-00-DX1.3C4CB10D-8C8B-4828-B7D4-7058BDF4D39F
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8DZ-01Z-00-DX1.3C4CB10D-8C8B-4828-B7D4-7058BDF4D39F_1_512.npy took 89.12354826927185 s
+features size:  (725, 1024)
+coordinates size:  725
+
+progress: 27/130
+TCGA-MX-A666-01Z-00-DX1.BBF0F62A-803E-4D05-A8A4-454D7BA15941
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-MX-A666-01Z-00-DX1.BBF0F62A-803E-4D05-A8A4-454D7BA15941_1_512.npy took 23.98042058944702 s
+features size:  (42, 1024)
+coordinates size:  42
+
+progress: 28/130
+TCGA-CD-5799-01Z-00-DX1.ce4c1cea-febc-4274-af53-e7853dcf8864
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-5799-01Z-00-DX1.ce4c1cea-febc-4274-af53-e7853dcf8864_1_512.npy took 94.38091325759888 s
+features size:  (527, 1024)
+coordinates size:  527
+
+progress: 29/130
+TCGA-VQ-AA69-01Z-00-DX1.1EEF2AD7-6470-44B5-9E87-E77AE47262F0
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA69-01Z-00-DX1.1EEF2AD7-6470-44B5-9E87-E77AE47262F0_1_512.npy took 98.74903559684753 s
+features size:  (774, 1024)
+coordinates size:  774
+
+progress: 30/130
+TCGA-CD-5801-01Z-00-DX1.2afa1c89-0f17-4f75-9cf0-2cde4aca97d0
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-5801-01Z-00-DX1.2afa1c89-0f17-4f75-9cf0-2cde4aca97d0_1_512.npy took 106.30836534500122 s
+features size:  (757, 1024)
+coordinates size:  757
+
+progress: 31/130
+TCGA-BR-A4QI-01Z-00-DX1.68312256-CBC5-4350-B4AD-A5990948BCB8
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A4QI-01Z-00-DX1.68312256-CBC5-4350-B4AD-A5990948BCB8_1_512.npy took 104.0893874168396 s
+features size:  (622, 1024)
+coordinates size:  622
+
+progress: 32/130
+TCGA-BR-6458-01Z-00-DX1.e889b058-99ab-4337-84a5-60a884caad55
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6458-01Z-00-DX1.e889b058-99ab-4337-84a5-60a884caad55_1_512.npy took 95.86373162269592 s
+features size:  (801, 1024)
+coordinates size:  801
+
+progress: 33/130
+TCGA-BR-6454-01Z-00-DX1.63fb6280-2b43-49b2-960a-eb9c0e8b617c
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6454-01Z-00-DX1.63fb6280-2b43-49b2-960a-eb9c0e8b617c_1_512.npy took 99.96611547470093 s
+features size:  (761, 1024)
+coordinates size:  761
+
+progress: 34/130
+TCGA-BR-6563-01Z-00-DX1.2398c0e0-47a6-4557-8e2d-3b890756900a
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6563-01Z-00-DX1.2398c0e0-47a6-4557-8e2d-3b890756900a_1_512.npy took 92.83313417434692 s
+features size:  (669, 1024)
+coordinates size:  669
+
+progress: 35/130
+TCGA-VQ-A8PZ-01Z-00-DX1.EE25BECD-7611-48EC-B78C-27F5E5BDD5DF
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PZ-01Z-00-DX1.EE25BECD-7611-48EC-B78C-27F5E5BDD5DF_1_512.npy took 86.32610201835632 s
+features size:  (464, 1024)
+coordinates size:  464
+
+progress: 36/130
+TCGA-D7-A74B-01Z-00-DX1.F7A13A7F-2812-43D9-A101-E1BFEA8B3454
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-A74B-01Z-00-DX1.F7A13A7F-2812-43D9-A101-E1BFEA8B3454_1_512.npy took 90.9592490196228 s
+features size:  (635, 1024)
+coordinates size:  635
+
+progress: 37/130
+TCGA-VQ-A92D-01Z-00-DX1.13EF7944-C276-4A3B-B9B3-7DC65A82AD60
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A92D-01Z-00-DX1.13EF7944-C276-4A3B-B9B3-7DC65A82AD60_1_512.npy took 105.47162985801697 s
+features size:  (1036, 1024)
+coordinates size:  1036
+
+progress: 38/130
+TCGA-IN-7806-01Z-00-DX1.2e7288fd-e149-4d4f-9d63-dd2e2f91d4f8
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-IN-7806-01Z-00-DX1.2e7288fd-e149-4d4f-9d63-dd2e2f91d4f8_1_512.npy took 209.72342038154602 s
+features size:  (1267, 1024)
+coordinates size:  1267
+
+progress: 39/130
+TCGA-VQ-A91Q-01Z-00-DX1.9928DA7E-B36D-4E5E-8F0F-BD41DA588DB9
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91Q-01Z-00-DX1.9928DA7E-B36D-4E5E-8F0F-BD41DA588DB9_1_512.npy took 86.58824610710144 s
+features size:  (475, 1024)
+coordinates size:  475
+
+progress: 40/130
+TCGA-BR-8363-01Z-00-DX1.eeecad72-b281-4e28-be60-4542b4a275aa
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8363-01Z-00-DX1.eeecad72-b281-4e28-be60-4542b4a275aa_1_512.npy took 98.88867902755737 s
+features size:  (255, 1024)
+coordinates size:  255
+
+progress: 41/130
+TCGA-VQ-A928-01Z-00-DX1.633B64F3-2F87-4C76-ABC4-4E03D04AF9EC
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A928-01Z-00-DX1.633B64F3-2F87-4C76-ABC4-4E03D04AF9EC_1_512.npy took 98.06541538238525 s
+features size:  (757, 1024)
+coordinates size:  757
+
+progress: 42/130
+TCGA-FP-7829-01Z-00-DX1.22253191-e487-46f6-b743-d7c44ad01f4c
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-7829-01Z-00-DX1.22253191-e487-46f6-b743-d7c44ad01f4c_1_512.npy took 73.969393491745 s
+features size:  (115, 1024)
+coordinates size:  115
+
+progress: 43/130
+TCGA-R5-A7ZI-01Z-00-DX1.3A4A56F1-1CFD-441D-85F3-52DDA0B346A5
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-R5-A7ZI-01Z-00-DX1.3A4A56F1-1CFD-441D-85F3-52DDA0B346A5_1_512.npy took 76.46943187713623 s
+features size:  (268, 1024)
+coordinates size:  268
+
+progress: 44/130
+TCGA-BR-8372-01Z-00-DX1.d0f9d5fd-3d6e-4d86-ad63-fb3611d6af05
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8372-01Z-00-DX1.d0f9d5fd-3d6e-4d86-ad63-fb3611d6af05_1_512.npy took 91.08914923667908 s
+features size:  (696, 1024)
+coordinates size:  696
+
+progress: 45/130
+TCGA-BR-7723-01Z-00-DX1.15f75a3f-93b8-423f-b5b5-bdb5ef378ed8
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-7723-01Z-00-DX1.15f75a3f-93b8-423f-b5b5-bdb5ef378ed8_1_512.npy took 88.18074178695679 s
+features size:  (909, 1024)
+coordinates size:  909
+
+progress: 46/130
+TCGA-FP-7916-01Z-00-DX1.6264d8c6-0ddb-4905-ad0c-146e380ddee1
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-7916-01Z-00-DX1.6264d8c6-0ddb-4905-ad0c-146e380ddee1_1_512.npy took 65.29286170005798 s
+features size:  (140, 1024)
+coordinates size:  140
+
+progress: 47/130
+7e2d3e8c-b154-435a-96dc-544290c78b68
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/7e2d3e8c-b154-435a-96dc-544290c78b68_1_512.npy took 82.9922935962677 s
+features size:  (752, 1024)
+coordinates size:  752
+
+progress: 48/130
+TCGA-BR-8381-01Z-00-DX1.1a017141-7af0-4aba-8e07-18b9bd9ce6a3
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8381-01Z-00-DX1.1a017141-7af0-4aba-8e07-18b9bd9ce6a3_1_512.npy took 85.37363624572754 s
+features size:  (999, 1024)
+coordinates size:  999
+
+progress: 49/130
+TCGA-ZA-A8F6-01Z-00-DX1.89510833-5BC8-4983-817E-0E9244824168
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-ZA-A8F6-01Z-00-DX1.89510833-5BC8-4983-817E-0E9244824168_1_512.npy took 79.11134123802185 s
+features size:  (417, 1024)
+coordinates size:  417
+
+progress: 50/130
+TCGA-EQ-5647-01Z-00-DX1.e71da6e6-dd3d-4fb3-b1ba-ada25e6319bb
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-EQ-5647-01Z-00-DX1.e71da6e6-dd3d-4fb3-b1ba-ada25e6319bb_1_512.npy took 88.2605390548706 s
+features size:  (260, 1024)
+coordinates size:  260
+
+progress: 51/130
+TCGA-D7-6527-01Z-00-DX2.AC6B9D7B-E289-449C-934B-E15BD593CED4
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6527-01Z-00-DX2.AC6B9D7B-E289-449C-934B-E15BD593CED4_1_512.npy took 173.43496203422546 s
+features size:  (1157, 1024)
+coordinates size:  1157
+
+progress: 52/130
+TCGA-BR-8680-01Z-00-DX1.a314ef6e-f3f9-4148-934e-dc432e3f39e8
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8680-01Z-00-DX1.a314ef6e-f3f9-4148-934e-dc432e3f39e8_1_512.npy took 84.14951658248901 s
+features size:  (829, 1024)
+coordinates size:  829
+
+progress: 53/130
+TCGA-VQ-A8P5-01Z-00-DX1.F3FDCB47-3426-400C-82A9-750012F95B3B
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8P5-01Z-00-DX1.F3FDCB47-3426-400C-82A9-750012F95B3B_1_512.npy took 79.22445154190063 s
+features size:  (713, 1024)
+coordinates size:  713
+
+progress: 54/130
+TCGA-D7-A4YT-01Z-00-DX1.645AF39D-1B70-4C46-AB80-7B532994EE66
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-A4YT-01Z-00-DX1.645AF39D-1B70-4C46-AB80-7B532994EE66_1_512.npy took 90.19068574905396 s
+features size:  (1045, 1024)
+coordinates size:  1045
+
+progress: 55/130
+TCGA-VQ-AA6A-01Z-00-DX1.52D958F4-34B3-43F1-9DAC-960E69C958CA
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA6A-01Z-00-DX1.52D958F4-34B3-43F1-9DAC-960E69C958CA_1_512.npy took 83.93715596199036 s
+features size:  (948, 1024)
+coordinates size:  948
+
+progress: 56/130
+TCGA-VQ-A8PD-01Z-00-DX1.A9B601CB-83AA-4F0C-BB6D-DD88455FDEE9
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PD-01Z-00-DX1.A9B601CB-83AA-4F0C-BB6D-DD88455FDEE9_1_512.npy took 86.15700364112854 s
+features size:  (822, 1024)
+coordinates size:  822
+
+progress: 57/130
+TCGA-BR-8588-01Z-00-DX1.34ca86de-a957-4cf7-9337-de0bba1844bc
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8588-01Z-00-DX1.34ca86de-a957-4cf7-9337-de0bba1844bc_1_512.npy took 86.33572745323181 s
+features size:  (475, 1024)
+coordinates size:  475
+
+progress: 58/130
+TCGA-BR-7851-01Z-00-DX1.1f3a3b7d-0c1e-42af-9d5b-2a90b759eca9
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-7851-01Z-00-DX1.1f3a3b7d-0c1e-42af-9d5b-2a90b759eca9_1_512.npy took 83.8474817276001 s
+features size:  (463, 1024)
+coordinates size:  463
+
+progress: 59/130
+TCGA-BR-6705-01Z-00-DX1.1e145e40-56d6-4ebd-9a9b-bc5a0cbe3247
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6705-01Z-00-DX1.1e145e40-56d6-4ebd-9a9b-bc5a0cbe3247_1_512.npy took 91.09132218360901 s
+features size:  (625, 1024)
+coordinates size:  625
+
+progress: 60/130
+TCGA-BR-8690-01Z-00-DX1.e94544ed-62a3-41f3-95d5-f0ba9dfaa77f
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8690-01Z-00-DX1.e94544ed-62a3-41f3-95d5-f0ba9dfaa77f_1_512.npy took 94.36095690727234 s
+features size:  (967, 1024)
+coordinates size:  967
+
+progress: 61/130
+TCGA-VQ-AA64-01Z-00-DX1.90641552-B556-4020-AA11-21E754BD5891
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA64-01Z-00-DX1.90641552-B556-4020-AA11-21E754BD5891_1_512.npy took 171.21604824066162 s
+features size:  (1167, 1024)
+coordinates size:  1167
+
+progress: 62/130
+TCGA-D7-A6EZ-01Z-00-DX1.BF91B810-86FD-4675-85A0-15DC9CF2195F
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-A6EZ-01Z-00-DX1.BF91B810-86FD-4675-85A0-15DC9CF2195F_1_512.npy took 87.88644051551819 s
+features size:  (965, 1024)
+coordinates size:  965
+
+progress: 63/130
+TCGA-BR-8678-01Z-00-DX1.b6b8888f-c3e6-4466-a13b-8434ff5b3a30
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8678-01Z-00-DX1.b6b8888f-c3e6-4466-a13b-8434ff5b3a30_1_512.npy took 81.1167721748352 s
+features size:  (449, 1024)
+coordinates size:  449
+
+progress: 64/130
+TCGA-BR-8362-01Z-00-DX1.178c994d-2cf5-4385-a807-fc08e0cf10f6
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8362-01Z-00-DX1.178c994d-2cf5-4385-a807-fc08e0cf10f6_1_512.npy took 102.46082878112793 s
+features size:  (1063, 1024)
+coordinates size:  1063
+
+progress: 65/130
+TCGA-BR-6452-01Z-00-DX1.aec8246e-9dce-436d-9faa-df8fa1f6e47c
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6452-01Z-00-DX1.aec8246e-9dce-436d-9faa-df8fa1f6e47c_1_512.npy took 86.42930269241333 s
+features size:  (703, 1024)
+coordinates size:  703
+
+progress: 66/130
+TCGA-D7-A4YX-01Z-00-DX1.54DE426E-7EC0-4FF4-919F-045E38B3C34E
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-A4YX-01Z-00-DX1.54DE426E-7EC0-4FF4-919F-045E38B3C34E_1_512.npy took 88.00986456871033 s
+features size:  (926, 1024)
+coordinates size:  926
+
+progress: 67/130
+TCGA-CD-8527-01Z-00-DX1.B03F39C4-F5F3-419A-BC2C-437EC56EFEC2
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8527-01Z-00-DX1.B03F39C4-F5F3-419A-BC2C-437EC56EFEC2_1_512.npy took 92.06948804855347 s
+features size:  (657, 1024)
+coordinates size:  657
+
+progress: 68/130
+834ad4fe-19bf-4029-8f55-739a638757e5
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/834ad4fe-19bf-4029-8f55-739a638757e5_1_512.npy took 87.86185193061829 s
+features size:  (791, 1024)
+coordinates size:  791
+
+progress: 69/130
+TCGA-VQ-A8PU-01Z-00-DX1.8E355321-0F03-4EEF-80B1-9677982C9D2F
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PU-01Z-00-DX1.8E355321-0F03-4EEF-80B1-9677982C9D2F_1_512.npy took 83.24605965614319 s
+features size:  (636, 1024)
+coordinates size:  636
+
+progress: 70/130
+TCGA-VQ-A924-01Z-00-DX1.736B41F3-9678-4FAF-AE86-FCAC4F6DCBD3
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A924-01Z-00-DX1.736B41F3-9678-4FAF-AE86-FCAC4F6DCBD3_1_512.npy took 80.09564805030823 s
+features size:  (607, 1024)
+coordinates size:  607
+
+progress: 71/130
+TCGA-VQ-A91Y-01Z-00-DX1.9401E1F3-4110-4F1E-99A0-36D4E1518650
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91Y-01Z-00-DX1.9401E1F3-4110-4F1E-99A0-36D4E1518650_1_512.npy took 92.80642294883728 s
+features size:  (790, 1024)
+coordinates size:  790
+
+progress: 72/130
+TCGA-D7-6822-01Z-00-DX2.4085F597-DD0C-4793-9586-CCC73382986B
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6822-01Z-00-DX2.4085F597-DD0C-4793-9586-CCC73382986B_1_512.npy took 94.98727679252625 s
+features size:  (1012, 1024)
+coordinates size:  1012
+
+progress: 73/130
+TCGA-D7-8572-01Z-00-DX2.13383FD3-B864-4578-8832-56EA1916FA86
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-8572-01Z-00-DX2.13383FD3-B864-4578-8832-56EA1916FA86_1_512.npy took 87.2234628200531 s
+features size:  (654, 1024)
+coordinates size:  654
+
+progress: 74/130
+TCGA-BR-6457-01Z-00-DX1.387f0968-fcec-4864-86f8-9c87f658c371
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6457-01Z-00-DX1.387f0968-fcec-4864-86f8-9c87f658c371_1_512.npy took 81.6687490940094 s
+features size:  (626, 1024)
+coordinates size:  626
+
+progress: 75/130
+TCGA-BR-7715-01Z-00-DX1.30aff8b3-bb1b-4aff-9f6b-2dde40122359
+processing a total of 3 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-7715-01Z-00-DX1.30aff8b3-bb1b-4aff-9f6b-2dde40122359_1_512.npy took 76.56620907783508 s
+features size:  (271, 1024)
+coordinates size:  271
+
+progress: 76/130
+TCGA-VQ-A8P3-01Z-00-DX1.1B018BDB-5C60-46D8-A014-CE8CA8ADA191
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8P3-01Z-00-DX1.1B018BDB-5C60-46D8-A014-CE8CA8ADA191_1_512.npy took 81.58286023139954 s
+features size:  (598, 1024)
+coordinates size:  598
+
+progress: 77/130
+TCGA-CD-8528-01Z-00-DX1.DE29BA05-ABCB-44B4-8CD9-D10EB3D71FBB
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8528-01Z-00-DX1.DE29BA05-ABCB-44B4-8CD9-D10EB3D71FBB_1_512.npy took 81.20183157920837 s
+features size:  (599, 1024)
+coordinates size:  599
+
+progress: 78/130
+TCGA-BR-A4CQ-01Z-00-DX1.B63282A5-154D-441B-BF96-5BB26CB6D95E
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A4CQ-01Z-00-DX1.B63282A5-154D-441B-BF96-5BB26CB6D95E_1_512.npy took 79.14773464202881 s
+features size:  (617, 1024)
+coordinates size:  617
+
+progress: 79/130
+TCGA-FP-8631-01Z-00-DX1.8804336F-7DE6-4401-80B4-AEFA752C11B2
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-8631-01Z-00-DX1.8804336F-7DE6-4401-80B4-AEFA752C11B2_1_512.npy took 84.9286561012268 s
+features size:  (225, 1024)
+coordinates size:  225
+
+progress: 80/130
+TCGA-BR-8483-01Z-00-DX1.0ddc4003-6d59-4b2b-9448-2755120de9f2
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8483-01Z-00-DX1.0ddc4003-6d59-4b2b-9448-2755120de9f2_1_512.npy took 95.46325826644897 s
+features size:  (1017, 1024)
+coordinates size:  1017
+
+progress: 81/130
+TCGA-R5-A7O7-01Z-00-DX1.89156AC0-4A5F-481D-9D5A-76B3751585F7
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-R5-A7O7-01Z-00-DX1.89156AC0-4A5F-481D-9D5A-76B3751585F7_1_512.npy took 35.271042346954346 s
+features size:  (49, 1024)
+coordinates size:  49
+
+progress: 82/130
+TCGA-BR-8365-01Z-00-DX1.0cf05858-a4a5-468e-aa62-d3e3e91eab4a
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8365-01Z-00-DX1.0cf05858-a4a5-468e-aa62-d3e3e91eab4a_1_512.npy took 80.99560022354126 s
+features size:  (555, 1024)
+coordinates size:  555
+
+progress: 83/130
+TCGA-F1-6874-01Z-00-DX1.3dfb0e10-3650-4c05-a27b-866fb6a304ff
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-F1-6874-01Z-00-DX1.3dfb0e10-3650-4c05-a27b-866fb6a304ff_1_512.npy took 90.06968855857849 s
+features size:  (759, 1024)
+coordinates size:  759
+
+progress: 84/130
+TCGA-BR-8676-01Z-00-DX1.297da9bc-fbfd-4277-84e1-297f177211db
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8676-01Z-00-DX1.297da9bc-fbfd-4277-84e1-297f177211db_1_512.npy took 90.43726658821106 s
+features size:  (751, 1024)
+coordinates size:  751
+
+progress: 85/130
+TCGA-BR-A452-01Z-00-DX1.049385EF-FF29-4124-800D-A3FF525A85A0
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A452-01Z-00-DX1.049385EF-FF29-4124-800D-A3FF525A85A0_1_512.npy took 159.33078908920288 s
+features size:  (1201, 1024)
+coordinates size:  1201
+
+progress: 86/130
+TCGA-D7-6820-01Z-00-DX2.8847C420-5C25-4716-B467-1CD2687F4484
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6820-01Z-00-DX2.8847C420-5C25-4716-B467-1CD2687F4484_1_512.npy took 92.92296004295349 s
+features size:  (718, 1024)
+coordinates size:  718
+
+progress: 87/130
+TCGA-VQ-A8PE-01Z-00-DX1.94480121-9AB9-490F-8E7F-77260C6DE0D5
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PE-01Z-00-DX1.94480121-9AB9-490F-8E7F-77260C6DE0D5_1_512.npy took 107.00338745117188 s
+features size:  (912, 1024)
+coordinates size:  912
+
+progress: 88/130
+TCGA-BR-A4CS-01Z-00-DX1.84B5892C-6C7F-474D-BA09-04E870A47764
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A4CS-01Z-00-DX1.84B5892C-6C7F-474D-BA09-04E870A47764_1_512.npy took 95.5137300491333 s
+features size:  (493, 1024)
+coordinates size:  493
+
+progress: 89/130
+TCGA-R5-A805-01Z-00-DX1.855298CD-DC64-4423-ABB1-D7AC92BF5177
+processing a total of 1 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-R5-A805-01Z-00-DX1.855298CD-DC64-4423-ABB1-D7AC92BF5177_1_512.npy took 72.61769461631775 s
+features size:  (97, 1024)
+coordinates size:  97
+
+progress: 90/130
+TCGA-D7-8573-01Z-00-DX2.703306C5-7D46-4E3C-833F-22D1FEF7C6F6
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-8573-01Z-00-DX2.703306C5-7D46-4E3C-833F-22D1FEF7C6F6_1_512.npy took 97.73494672775269 s
+features size:  (1044, 1024)
+coordinates size:  1044
+
+progress: 91/130
+TCGA-CD-A4MH-01Z-00-DX1.5594817C-6E68-4D29-8B77-5133C321FB75
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-A4MH-01Z-00-DX1.5594817C-6E68-4D29-8B77-5133C321FB75_1_512.npy took 80.04386258125305 s
+features size:  (469, 1024)
+coordinates size:  469
+
+progress: 92/130
+TCGA-VQ-A94U-01Z-00-DX1.5E27CE1E-CF07-4219-9536-D5F898E47A9B
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A94U-01Z-00-DX1.5E27CE1E-CF07-4219-9536-D5F898E47A9B_1_512.npy took 78.05514621734619 s
+features size:  (971, 1024)
+coordinates size:  971
+
+progress: 93/130
+TCGA-BR-8361-01Z-00-DX1.1b4bb384-c462-453a-97b4-663dbba4a464
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8361-01Z-00-DX1.1b4bb384-c462-453a-97b4-663dbba4a464_1_512.npy took 166.26996874809265 s
+features size:  (1271, 1024)
+coordinates size:  1271
+
+progress: 94/130
+TCGA-D7-6528-01Z-00-DX1.3c2ec0f4-9b8f-45c5-920d-5afe55890219
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6528-01Z-00-DX1.3c2ec0f4-9b8f-45c5-920d-5afe55890219_1_512.npy took 87.12848353385925 s
+features size:  (519, 1024)
+coordinates size:  519
+
+progress: 95/130
+TCGA-VQ-A91X-01Z-00-DX1.8D0815BF-2430-4471-881E-1E12357ACEA4
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91X-01Z-00-DX1.8D0815BF-2430-4471-881E-1E12357ACEA4_1_512.npy took 86.37288355827332 s
+features size:  (600, 1024)
+coordinates size:  600
+
+progress: 96/130
+TCGA-BR-A4J5-01Z-00-DX1.C7D0D294-0280-415A-A8BB-ACB3177E5A0D
+processing a total of 11 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A4J5-01Z-00-DX1.C7D0D294-0280-415A-A8BB-ACB3177E5A0D_1_512.npy took 165.1094880104065 s
+features size:  (1362, 1024)
+coordinates size:  1362
+
+progress: 97/130
+TCGA-F1-6177-01Z-00-DX1.7687CABE-8984-4396-882C-978C15F66401
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-F1-6177-01Z-00-DX1.7687CABE-8984-4396-882C-978C15F66401_1_512.npy took 99.28073334693909 s
+features size:  (846, 1024)
+coordinates size:  846
+
+progress: 98/130
+TCGA-VQ-AA6J-01Z-00-DX1.212AF324-26E9-4807-A64B-6325D6E94507
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA6J-01Z-00-DX1.212AF324-26E9-4807-A64B-6325D6E94507_1_512.npy took 89.35582065582275 s
+features size:  (1016, 1024)
+coordinates size:  1016
+
+progress: 99/130
+TCGA-VQ-A91K-01Z-00-DX1.42AFBDC4-809A-4245-8550-DE9B9A11F09F
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91K-01Z-00-DX1.42AFBDC4-809A-4245-8550-DE9B9A11F09F_1_512.npy took 92.52333474159241 s
+features size:  (723, 1024)
+coordinates size:  723
+
+progress: 100/130
+TCGA-BR-8368-01Z-00-DX1.b1d32cec-36d6-4ee9-9455-bf0c797a271a
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8368-01Z-00-DX1.b1d32cec-36d6-4ee9-9455-bf0c797a271a_1_512.npy took 97.35860538482666 s
+features size:  (735, 1024)
+coordinates size:  735
+
+progress: 101/130
+TCGA-VQ-A91A-01Z-00-DX1.B0F3EE79-4246-4534-9763-EB9C6D60F3AA
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91A-01Z-00-DX1.B0F3EE79-4246-4534-9763-EB9C6D60F3AA_1_512.npy took 156.9368450641632 s
+features size:  (1186, 1024)
+coordinates size:  1186
+
+progress: 102/130
+TCGA-VQ-A91W-01Z-00-DX1.E4878B45-586E-46F7-8113-8080149AC45D
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A91W-01Z-00-DX1.E4878B45-586E-46F7-8113-8080149AC45D_1_512.npy took 89.0953106880188 s
+features size:  (756, 1024)
+coordinates size:  756
+
+progress: 103/130
+TCGA-D7-8579-01Z-00-DX2.9D40DCA2-2711-426C-B5DD-3D897975F4BF
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-8579-01Z-00-DX2.9D40DCA2-2711-426C-B5DD-3D897975F4BF_1_512.npy took 104.17330026626587 s
+features size:  (880, 1024)
+coordinates size:  880
+
+progress: 104/130
+TCGA-BR-8373-01Z-00-DX1.d508dfad-2195-4aa4-bccc-58a450d07182
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8373-01Z-00-DX1.d508dfad-2195-4aa4-bccc-58a450d07182_1_512.npy took 93.42485499382019 s
+features size:  (463, 1024)
+coordinates size:  463
+
+progress: 105/130
+TCGA-JY-A938-01Z-00-DX1.FC986FA6-0279-469C-B31D-2BEFB4A6DED4
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-JY-A938-01Z-00-DX1.FC986FA6-0279-469C-B31D-2BEFB4A6DED4_1_512.npy took 85.41492819786072 s
+features size:  (803, 1024)
+coordinates size:  803
+
+progress: 106/130
+TCGA-BR-A4J2-01Z-00-DX1.37D92442-6B00-4171-81E3-73A7FC6BBEF4
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-A4J2-01Z-00-DX1.37D92442-6B00-4171-81E3-73A7FC6BBEF4_1_512.npy took 92.44985461235046 s
+features size:  (714, 1024)
+coordinates size:  714
+
+progress: 107/130
+TCGA-BR-8369-01Z-00-DX1.13c80644-af27-4971-9e41-4d18c1c78378
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8369-01Z-00-DX1.13c80644-af27-4971-9e41-4d18c1c78378_1_512.npy took 84.05651497840881 s
+features size:  (692, 1024)
+coordinates size:  692
+
+progress: 108/130
+TCGA-VQ-A8DV-01Z-00-DX1.DB668CCB-E5C9-49D8-9F0B-2548AA1C3E69
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8DV-01Z-00-DX1.DB668CCB-E5C9-49D8-9F0B-2548AA1C3E69_1_512.npy took 72.05627083778381 s
+features size:  (825, 1024)
+coordinates size:  825
+
+progress: 109/130
+TCGA-D7-6519-01Z-00-DX2.D42BA621-1099-4C4F-B691-B124F871A1CB
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6519-01Z-00-DX2.D42BA621-1099-4C4F-B691-B124F871A1CB_1_512.npy took 76.52034497261047 s
+features size:  (922, 1024)
+coordinates size:  922
+
+progress: 110/130
+TCGA-CD-8524-01Z-00-DX1.DECAC3E1-31F4-4D7E-9ABD-8E0CF27DB4B9
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8524-01Z-00-DX1.DECAC3E1-31F4-4D7E-9ABD-8E0CF27DB4B9_1_512.npy took 81.32278370857239 s
+features size:  (647, 1024)
+coordinates size:  647
+
+progress: 111/130
+TCGA-BR-6566-01Z-00-DX1.908c1c0f-12a4-4fa8-a398-ca3b033e7496
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-6566-01Z-00-DX1.908c1c0f-12a4-4fa8-a398-ca3b033e7496_1_512.npy took 83.3637068271637 s
+features size:  (926, 1024)
+coordinates size:  926
+
+progress: 112/130
+TCGA-CD-8535-01Z-00-DX1.ADD3D8B1-FECB-46C1-940B-7D261723D850
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8535-01Z-00-DX1.ADD3D8B1-FECB-46C1-940B-7D261723D850_1_512.npy took 98.48721313476562 s
+features size:  (535, 1024)
+coordinates size:  535
+
+progress: 113/130
+TCGA-D7-6520-01Z-00-DX1.c65fcb6d-72c1-44dc-a056-f54c9130e0cb
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-6520-01Z-00-DX1.c65fcb6d-72c1-44dc-a056-f54c9130e0cb_1_512.npy took 94.17576670646667 s
+features size:  (901, 1024)
+coordinates size:  901
+
+progress: 114/130
+TCGA-RD-A8N6-01Z-00-DX1.E51FADB4-1A2E-415D-9C91-F81705311147
+processing a total of 9 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-RD-A8N6-01Z-00-DX1.E51FADB4-1A2E-415D-9C91-F81705311147_1_512.npy took 126.47362089157104 s
+features size:  (1118, 1024)
+coordinates size:  1118
+
+progress: 115/130
+TCGA-CD-A48C-01Z-00-DX1.2AF2A65B-6F81-43F5-AC0F-06EAE3C567F3
+processing a total of 5 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-A48C-01Z-00-DX1.2AF2A65B-6F81-43F5-AC0F-06EAE3C567F3_1_512.npy took 83.89430260658264 s
+features size:  (520, 1024)
+coordinates size:  520
+
+progress: 116/130
+TCGA-CD-8534-01Z-00-DX1.54F0CB0F-5A93-4382-A507-2DEFDBBE05F5
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-8534-01Z-00-DX1.54F0CB0F-5A93-4382-A507-2DEFDBBE05F5_1_512.npy took 70.45468807220459 s
+features size:  (422, 1024)
+coordinates size:  422
+
+progress: 117/130
+TCGA-VQ-A922-01Z-00-DX1.445608A5-D4F1-44AB-8642-3C944D753D87
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A922-01Z-00-DX1.445608A5-D4F1-44AB-8642-3C944D753D87_1_512.npy took 90.62764167785645 s
+features size:  (995, 1024)
+coordinates size:  995
+
+progress: 118/130
+TCGA-VQ-AA6I-01Z-00-DX1.B11762F9-1DA7-4140-8F45-2B372B497379
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-AA6I-01Z-00-DX1.B11762F9-1DA7-4140-8F45-2B372B497379_1_512.npy took 83.44073462486267 s
+features size:  (1010, 1024)
+coordinates size:  1010
+
+progress: 119/130
+TCGA-FP-A4BE-01Z-00-DX1.813B0887-ED1F-48DD-A2E2-F14EB20D1F71
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-A4BE-01Z-00-DX1.813B0887-ED1F-48DD-A2E2-F14EB20D1F71_1_512.npy took 93.9011173248291 s
+features size:  (823, 1024)
+coordinates size:  823
+
+progress: 120/130
+TCGA-BR-8485-01Z-00-DX1.863bea72-3bd3-4f07-bbc9-e00d17ae39f7
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8485-01Z-00-DX1.863bea72-3bd3-4f07-bbc9-e00d17ae39f7_1_512.npy took 94.2614574432373 s
+features size:  (499, 1024)
+coordinates size:  499
+
+progress: 121/130
+TCGA-VQ-A8PS-01Z-00-DX1.E93B2855-6350-4037-8C41-E781D887C790
+processing a total of 8 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PS-01Z-00-DX1.E93B2855-6350-4037-8C41-E781D887C790_1_512.npy took 90.57790470123291 s
+features size:  (901, 1024)
+coordinates size:  901
+
+progress: 122/130
+TCGA-FP-7735-01Z-00-DX1.97aac46a-898e-4c43-8c93-1496f40c43ed
+processing a total of 2 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-FP-7735-01Z-00-DX1.97aac46a-898e-4c43-8c93-1496f40c43ed_1_512.npy took 89.60976362228394 s
+features size:  (129, 1024)
+coordinates size:  129
+
+progress: 123/130
+TCGA-BR-8591-01Z-00-DX1.c64ee000-b80d-46dd-b347-7aa8ce3b6113
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8591-01Z-00-DX1.c64ee000-b80d-46dd-b347-7aa8ce3b6113_1_512.npy took 86.91284227371216 s
+features size:  (443, 1024)
+coordinates size:  443
+
+progress: 124/130
+TCGA-KB-A93G-01Z-00-DX1.050F4602-DD6F-4E97-ACA8-3DE040485467
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-KB-A93G-01Z-00-DX1.050F4602-DD6F-4E97-ACA8-3DE040485467_1_512.npy took 97.46156430244446 s
+features size:  (866, 1024)
+coordinates size:  866
+
+progress: 125/130
+TCGA-D7-A4Z0-01Z-00-DX1.3D9BDA76-6884-4012-AB91-C374F32B58FB
+processing a total of 10 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-D7-A4Z0-01Z-00-DX1.3D9BDA76-6884-4012-AB91-C374F32B58FB_1_512.npy took 174.30310654640198 s
+features size:  (1193, 1024)
+coordinates size:  1193
+
+progress: 126/130
+TCGA-VQ-A8PP-01Z-00-DX1.46FE6CC6-A47C-47D3-B21B-A17CF1DDAC76
+processing a total of 6 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-VQ-A8PP-01Z-00-DX1.46FE6CC6-A47C-47D3-B21B-A17CF1DDAC76_1_512.npy took 88.74257755279541 s
+features size:  (750, 1024)
+coordinates size:  750
+
+progress: 127/130
+TCGA-IN-7808-01Z-00-DX1.0aacd7e2-1454-4aa4-866b-b142fa04e619
+processing a total of 12 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-IN-7808-01Z-00-DX1.0aacd7e2-1454-4aa4-866b-b142fa04e619_1_512.npy took 175.90150380134583 s
+features size:  (1458, 1024)
+coordinates size:  1458
+
+progress: 128/130
+TCGA-CD-A489-01Z-00-DX1.AB03DA27-6A86-41C7-9305-E5400E6C47AC
+processing a total of 4 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-CD-A489-01Z-00-DX1.AB03DA27-6A86-41C7-9305-E5400E6C47AC_1_512.npy took 88.63166499137878 s
+features size:  (483, 1024)
+coordinates size:  483
+
+progress: 129/130
+TCGA-BR-8486-01Z-00-DX1.5a31224e-5c0e-49ca-ae65-d2edc8e4a0a2
+processing a total of 7 batches
+
+computing features for /home/z/zeyugao/dataset/WSIData//TCGA-STAD/clam_gen/resnet50_patch/TCGA-BR-8486-01Z-00-DX1.5a31224e-5c0e-49ca-ae65-d2edc8e4a0a2_1_512.npy took 92.47373247146606 s
+features size:  (871, 1024)
+coordinates size:  871

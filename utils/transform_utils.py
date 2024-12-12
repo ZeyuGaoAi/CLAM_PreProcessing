@@ -5,8 +5,12 @@ def get_eval_transforms(mean, std, target_img_size = -1):
 	
 	if target_img_size > 0:
 		trsforms.append(transforms.Resize(target_img_size))
+	
 	trsforms.append(transforms.ToTensor())
-	trsforms.append(transforms.Normalize(mean, std))
+
+	if mean is not None:
+		trsforms.append(transforms.Normalize(mean, std))
+	
 	trsforms = transforms.Compose(trsforms)
 
 	return trsforms
