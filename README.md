@@ -3,13 +3,13 @@ CLAM-based preprocessing with more foundation models
 
 | Version Name      | Link      |
 |-------------------|-------------------|
-| uni_v1            |-------------------|
-| conch_v1          |-------------------|
-| conch_v1_5        |-------------------|
-| h_optimus_0       |-------------------|
-| virchow2          |-------------------|
-| gigapath          |-------------------|
-| hibou_l           |-------------------|
+| uni_v1            |https://huggingface.co/MahmoodLab/UNI|
+| conch_v1          |https://huggingface.co/MahmoodLab/CONCH|
+| conch_v1_5        |https://huggingface.co/MahmoodLab/TITAN|
+| h_optimus_0       |https://huggingface.co/bioptimus/H-optimus-0|
+| virchow2          |https://huggingface.co/paige-ai/Virchow2|
+| gigapath          |https://huggingface.co/prov-gigapath/prov-gigapath|
+| hibou_l           |https://huggingface.co/histai/hibou-L|
 
 ## Patch Tessellation
 ```
