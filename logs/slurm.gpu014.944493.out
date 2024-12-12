@@ -33877,3 +33877,54 @@ transformations:  Compose(
     Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
 )
 processing a total of 29 batches
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([128, 1024])
+torch.Size([23, 1024])
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/uni/TCGA-KV-A6GE-01Z-00-DX7.3850CC14-515E-4168-B507-D5C8CF27C968_0_1024.npy took 103.80983543395996 s
+features size:  (3607, 1024)
+coordinates size:  3607
+
+progress: 423/947
+TCGA-BP-4959-01Z-00-DX1.2f8b4ccb-c280-48e3-b901-50ef83e56669
+downsample [1. 1.]
+downsampled_level_dim [112298  84468]
+level_dim [112298  84468]
+name TCGA-BP-4959-01Z-00-DX1.2f8b4ccb-c280-48e3-b901-50ef83e56669
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bilinear, max_size=None, antialias=True)
+    ToTensor()
+    Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])
+)
+processing a total of 42 batches
