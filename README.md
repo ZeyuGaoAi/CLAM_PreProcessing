@@ -20,6 +20,8 @@ python create_patches_fp.py --source /home/shared/su123/TCGA_ORI/TCGA-OV/ \
 
 ## Feature Extraction
 
+set up model_name: uni_v1, conch_v1, conch_v1_5, h_optimus_0, virchow2, gigapath, hibou_l
+
 ```
 python extract_features_fp.py --data_h5_dir /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/ \
     --anno_dir /home/z/zeyugao/dataset/WSIData/TCGA-RCC/annotation/ \
