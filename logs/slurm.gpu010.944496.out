@@ -36617,3 +36617,140 @@ transformations:  Compose(
     Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
 )
 processing a total of 47 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/virchow2/TCGA-5P-A9JU-01Z-00-DX1.7E42A7A6-A565-4D78-990F-C4E7539E494A_0_1024.npy took 83.7820782661438 s
+features size:  (5962, 2560)
+coordinates size:  5962
+
+progress: 920/947
+TCGA-B0-4698-01Z-00-DX1.e50fd25d-db5f-419f-b400-911fce1333d0
+downsample [1. 1.]
+downsampled_level_dim [97843 80325]
+level_dim [97843 80325]
+name TCGA-B0-4698-01Z-00-DX1.e50fd25d-db5f-419f-b400-911fce1333d0
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)
+    CenterCrop(size=(224, 224))
+    MaybeToTensor()
+    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
+)
+processing a total of 40 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/hibou_l/TCGA-BP-5007-01Z-00-DX1.3d9c2588-3310-4fbc-8bc0-7185e9b0d83b_0_1024.npy took 177.49585676193237 s
+features size:  (4755, 1024)
+coordinates size:  4755
+
+progress: 310/947
+TCGA-DW-5560-01Z-00-DX1.d3da6f16-6a12-417b-8555-585f5097d4f4
+downsample [1. 1.]
+downsampled_level_dim [121824  87628]
+level_dim [121824  87628]
+name TCGA-DW-5560-01Z-00-DX1.d3da6f16-6a12-417b-8555-585f5097d4f4
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=(224, 224), interpolation=bicubic, max_size=None, antialias=True)
+    ToTensor()
+    Normalize(mean=[0.7068, 0.5755, 0.722], std=[0.195, 0.2316, 0.1816])
+)
+processing a total of 50 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/virchow2/TCGA-B0-4698-01Z-00-DX1.e50fd25d-db5f-419f-b400-911fce1333d0_0_1024.npy took 75.22357964515686 s
+features size:  (5084, 2560)
+coordinates size:  5084
+
+progress: 921/947
+TCGA-UZ-A9PV-01Z-00-DX1.1E5D118D-0410-4E81-8B29-F1F6F26BDC69
+downsample [1. 1.]
+downsampled_level_dim [113544  80526]
+level_dim [113544  80526]
+name TCGA-UZ-A9PV-01Z-00-DX1.1E5D118D-0410-4E81-8B29-F1F6F26BDC69
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)
+    CenterCrop(size=(224, 224))
+    MaybeToTensor()
+    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
+)
+processing a total of 33 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/virchow2/TCGA-UZ-A9PV-01Z-00-DX1.1E5D118D-0410-4E81-8B29-F1F6F26BDC69_0_1024.npy took 54.19867563247681 s
+features size:  (4153, 2560)
+coordinates size:  4153
+
+progress: 922/947
+TCGA-KN-8426-01Z-00-DX1.FA31AC9B-A378-467E-97CB-7EFA06B804A1
+downsample [1. 1.]
+downsampled_level_dim [47023 62245]
+level_dim [47023 62245]
+name TCGA-KN-8426-01Z-00-DX1.FA31AC9B-A378-467E-97CB-7EFA06B804A1
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)
+    CenterCrop(size=(224, 224))
+    MaybeToTensor()
+    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
+)
+processing a total of 15 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/virchow2/TCGA-KN-8426-01Z-00-DX1.FA31AC9B-A378-467E-97CB-7EFA06B804A1_0_1024.npy took 25.586679220199585 s
+features size:  (1828, 2560)
+coordinates size:  1828
+
+progress: 923/947
+TCGA-NP-A5B3-01Z-00-DX1.6DE4C2C4-E135-4117-864D-2A477D6FDB86
+downsample [1. 1.]
+downsampled_level_dim [34532 54199]
+level_dim [34532 54199]
+name TCGA-NP-A5B3-01Z-00-DX1.6DE4C2C4-E135-4117-864D-2A477D6FDB86
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)
+    CenterCrop(size=(224, 224))
+    MaybeToTensor()
+    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
+)
+processing a total of 3 batches
+
+computing features for /home/shared/su123/TCGA_Embed/TCGA-RCC/clam_gen_1024/virchow2/TCGA-NP-A5B3-01Z-00-DX1.6DE4C2C4-E135-4117-864D-2A477D6FDB86_0_1024.npy took 14.901659488677979 s
+features size:  (359, 2560)
+coordinates size:  359
+
+progress: 924/947
+TCGA-5P-A9JZ-01Z-00-DX1.882DD175-62F1-4CCA-9B17-D79D80D7B75C
+downsample [1. 1.]
+downsampled_level_dim [ 86272 157952]
+level_dim [ 86272 157952]
+name TCGA-5P-A9JZ-01Z-00-DX1.882DD175-62F1-4CCA-9B17-D79D80D7B75C
+patch_level 0
+patch_size 1024
+save_path /home/z/zeyugao/dataset/WSIData/TCGA-RCC/clam_gen_1024/patches
+
+feature extraction settings
+transformations:  Compose(
+    Resize(size=224, interpolation=bicubic, max_size=None, antialias=True)
+    CenterCrop(size=(224, 224))
+    MaybeToTensor()
+    Normalize(mean=tensor([0.4850, 0.4560, 0.4060]), std=tensor([0.2290, 0.2240, 0.2250]))
+)
+processing a total of 48 batches
